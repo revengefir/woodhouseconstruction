@@ -24,6 +24,7 @@ header{
 .htext{
     margin-top: 45px;
     font-size: 18px;
+    height: 25px;
 }
 .lineh{
     position: absolute;
@@ -50,28 +51,44 @@ header{
 .elipseh3{
     left: 960px;
 }
-header ul li{
+header ul{
     list-style: none;
+    margin-top: 48px;
 }
 header ul li a{
-    display: block;
-	text-transform: uppercase;
-	text-decoration: none
+	text-decoration: none;
+    color: black;
 }
 header ul li a:hover{
-    color: aquamarine;
+    color: #725C44;
 }
 header ul li ul{
-    display: block;
-	background-color: rgba(255,255,255,0.5);
-	min-width: 200px;
-	position: absolute;
+    position: absolute;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 	opacity:0;
 	visibility: hidden;
 	transition: 0.5s;
+    width: 313px;
+    height: 221px;
+    padding: 20px;
 }
 header ul li:hover ul{
     opacity:1;
 	visibility:visible;
+}
+.htext a:hover{
+    color: #725C44;
+}
+.htext a{
+    text-decoration: none;
+    color: black;
+}
+header ul li ul:hover{
+    background-color: #725C44;
+}
+header ul li ul li a:hover{
+    color: white;
+}
+header ul li ul li{
+    margin-top: 24px;
 }
