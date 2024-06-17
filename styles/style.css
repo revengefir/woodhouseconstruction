@@ -5,10 +5,73 @@
 }
 header{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 .logo{
     width: 107px;
     height: 107px;
     margin-left: 186px;
+}
+.numbers{
+    font-size: 22px;
+}
+.telephon{
+    width: 20px;
+    height: 21px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.htext{
+    margin-top: 45px;
+    font-size: 18px;
+}
+.lineh{
+    position: absolute;
+    width: 1060px;
+    height: 0px;
+    top: 110px;
+    left: 200px;
+    background-color: #3533334D;
+    border: 1px solid #3533334D
+}
+.elipseh{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 56px;
+    background-color: black;
+}
+.elipseh1{
+    left: 950px;
+}
+.elipseh2{
+    left: 955px;
+}
+.elipseh3{
+    left: 960px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: block;
+	text-transform: uppercase;
+	text-decoration: none
+}
+header ul li a:hover{
+    color: aquamarine;
+}
+header ul li ul{
+    display: block;
+	background-color: rgba(255,255,255,0.5);
+	min-width: 200px;
+	position: absolute;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	opacity:0;
+	visibility: hidden;
+	transition: 0.5s;
+}
+header ul li:hover ul{
+    opacity:1;
+	visibility:visible;
 }
