@@ -51,7 +51,7 @@ header{
 .elipseh3{
     left: 960px;
 }
-header ul{
+.list{
     list-style: none;
     margin-top: 48px;
 }
@@ -64,13 +64,13 @@ header ul li a:hover{
 }
 header ul li ul{
     position: absolute;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    box-shadow: -3px 3px 10px 0px #1D1B1B24;
+    border: 1px solid #3533331A;
 	opacity:0;
 	visibility: hidden;
 	transition: 0.5s;
-    width: 313px;
-    height: 221px;
-    padding: 20px;
+    width: 260px;
+    height: 241px;
 }
 header ul li:hover ul{
     opacity:1;
@@ -83,12 +83,17 @@ header ul li:hover ul{
     text-decoration: none;
     color: black;
 }
-header ul li ul:hover{
+header ul li ul li:hover{
     background-color: #725C44;
 }
 header ul li ul li a:hover{
     color: white;
 }
 header ul li ul li{
-    margin-top: 24px;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+}
+header ul{
+    list-style: none;
 }
