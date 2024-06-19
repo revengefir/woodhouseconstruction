@@ -161,3 +161,201 @@ header ul{
 .x{
     width: 250px;
 }
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    background-color: #353333;
+    width: 1600px;
+    height: 474px;
+}
+
+.footerWrapperN1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 186px;
+    margin-right: 263px;
+    padding-top: 21px;
+    height: 398px;
+    width: 1200px;
+}
+
+.footerlogo {
+    width: 107px;
+    height: 107px;
+    margin-right: 95px;
+    margin-top: 28px;
+}
+
+.houseLI, .bathLI, .footerlinksLI {
+    list-style: none;
+}
+
+.houseLI a, .bathLI a, .footerlinks, .housesUL, .bathsUL, .contacts{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.bathsUL {
+    line-height: 16.06px;
+    margin-top: 36px;
+}
+
+.houseLI a, .bathLI a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.houseLI a:hover, .bathLI a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.buildingsDIV {
+    margin-top: 66px;
+}
+
+.houseLI {
+    margin-top: 8px;
+}
+
+#housesfirst {
+    margin-top: 9px
+}
+
+.bathLI {
+    margin-top: 8px
+}
+
+#bathsfirst {
+    margin-top: 15px
+}
+
+.footerlinksDIV {
+    margin-left: 164px;
+    margin-right: 197px;
+    margin-top: 66px;
+}
+
+.footerlinksLI {
+    margin-bottom: 20px;
+}
+
+.contacts {
+    margin-top: 66px;
+}
+
+.worktimeLI {
+    list-style: none;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;    
+}
+
+.worktimeLI img {
+    margin-right: 5px;
+    height: 21px;
+    width: 21px;
+}
+
+.footernumber {
+    font-size: 22px;
+    line-height: 19.62px;
+    margin: 23px 0 26px 0;
+    width: 186px;
+}
+
+.email {
+    margin-bottom: 29px;
+}
+
+.emaillink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.emailpicture {
+    height: 15.62px;
+    width: 21.88px;
+    margin-right: 6.56px;
+}
+
+.contact_logos {
+    width: 142px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_logo:first-child a img:hover{
+    background-image: url(../../../woodhouseconstruction/woodhouseconstruction/img/VKhoverlogo.png);
+    background-size: cover;
+}
+
+.footerWrapperN2 {
+    height: 59px;
+    width: 1200px;
+    margin-left: 199px;
+    margin-right: 199px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 11px;
+}
+
+.footerWrapperN2 p {
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-right: 42px;
+}
+
+.lastlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.agreement {
+    margin-right: 15px;
+}
+
+.totopDIV{
+    width: 59.59px;
+    height: 59.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.totopDIV2{
+    width: 42.14px;
+    height: 42.14px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.totoplink{
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totopDIV2:hover {
+    background-color: white;
+}
+.totoplink img{
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
