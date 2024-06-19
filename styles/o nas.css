@@ -72,6 +72,7 @@ header ul li ul{
 	transition: 0.5s;
     width: 260px;
     height: 241px;
+    background-color: white;
 }
 header ul li:hover ul{
     opacity:1;
@@ -350,13 +351,13 @@ footer {
 .textup{
     margin: 25px 0 0 0;
 }
-ul li{
+.main ul li{
     list-style: none;
     margin: 7px 0 0 0;
     display: flex;
     align-items: center;
 }
-ul{
+.main ul{
     margin: 30px 0 0 0;
 }
 .elipse{

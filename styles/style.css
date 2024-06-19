@@ -72,6 +72,7 @@ header ul li ul{
 	transition: 0.5s;
     width: 260px;
     height: 241px;
+    background-color: white;
 }
 header ul li:hover ul{
     opacity:1;
