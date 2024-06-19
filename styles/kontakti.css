@@ -380,11 +380,10 @@ button{
     margin: 63px 0 0 200px;
 }
 table{
-    position: absolute;
     width: 558px;
     height: 570px;
-    left: 465px;
     border: 1px solid black;
+    margin: 0 0 0 465px;
 }
 td{
     border: 1px solid black;
