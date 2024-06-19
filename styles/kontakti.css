@@ -231,7 +231,7 @@ footer {
 }
 
 .contact_logo:first-child a img:hover{
-    background-image: url(../../../woodhouseconstruction/woodhouseconstruction/img/VKhoverlogo.png);
+    background-image: url();
     background-size: cover;
 }
 
@@ -339,4 +339,53 @@ footer {
 }
 .main{
     height: 1347px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 37.46px;
+    text-align: left;
+    margin: 50px 0 0 199px;
+}
+button{
+    width: 214px;
+    height: 53px;
+    background-color: #353333;
+    color: #FFFFFFE5;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    margin: 20px 0 0 200px;
+}
+.vk{
+    width: 28px;
+    height: 28px;
+}
+.yt{
+    width: 34px;
+    height: 34px;
+}
+.vi{
+    width: 27px;
+    height: 27px;
+}
+.map{
+    width: 823px;
+    height: 400px;
+    margin: 50px 0 0 200px;
+}
+.text{
+    margin: 63px 0 0 200px;
+}
+table{
+    position: absolute;
+    width: 558px;
+    height: 570px;
+    left: 465px;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
 }
