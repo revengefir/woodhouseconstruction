@@ -99,72 +99,6 @@ header ul li ul li{
 header ul{
     list-style: none;
 }
-.build{
-    color: #9F7B50;
-}
-.in a{
-    color: black;
-}
-.in{
-    margin: 30px 0 0 200px;
-}
-.gap{
-    margin: 0 5px 0 5px;
-}
-.main h1{
-    margin: 30px 0 0 200px
-}
-.houses img{
-    width: 391px;
-    height: 281px;
-    margin: 35px 0 15px 0;
-}
-.doma{
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    width: 780px;
-    margin-left: 159px;
-}
-.houses{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 19.62px;
-    text-align: left;
-    margin-left: 41px;
-}
-.prei{
-    margin: 170px 0 0 200px;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 45.6px;
-    text-align: left;
-    width: 860px;
-}
-.preimushestva{
-    display: grid;
-    width: 1100px;
-    height: 500px;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: space-around;
-    margin: 80px 0 0 200px;
-}
-.b{
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 33.6px;
-    text-align: left;
-}
-.v{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-    text-align: left;
-    margin-top: 25px;
-}
-.x{
-    width: 250px;
-}
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -363,10 +297,22 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.build{
+    color: #9F7B50;
+}
+.in a{
+    color: black;
+}
+.in{
+    margin: 30px 0 0 200px;
+}
+.gap{
+    margin: 0 5px 0 5px;
+}
 .dib{
     position: absolute;
     width: 340px;
-    height: 1999px;
+    height: 1375px;
     top: 127px;
     left: 1078px;    
     background-color: #F9F9F9;
@@ -390,4 +336,7 @@ footer {
 }
 .os5{
     margin-left: 117px;
+}
+.main{
+    height: 1347px;
 }

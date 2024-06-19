@@ -306,6 +306,9 @@ footer {
 .in{
     margin: 30px 0 0 200px;
 }
+.gap{
+    margin: 0 5px 0 5px;
+}
 .dib{
     position: absolute;
     width: 340px;
