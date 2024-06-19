@@ -5,7 +5,7 @@
 }
 header{
     display: flex;
-    gap: 40px;
+    gap: 68px;
 }
 .logo{
     width: 107px;
@@ -28,7 +28,7 @@ header{
 }
 .lineh{
     position: absolute;
-    width: 1060px;
+    width: 1216px;
     height: 0px;
     top: 110px;
     left: 200px;
@@ -43,13 +43,13 @@ header{
     background-color: black;
 }
 .elipseh1{
-    left: 950px;
+    left: 1090px;
 }
 .elipseh2{
-    left: 955px;
+    left: 1095px;
 }
 .elipseh3{
-    left: 960px;
+    left: 1100px;
 }
 .list{
     list-style: none;
@@ -104,14 +104,14 @@ header ul{
     color: black;
 }
 .in{
-    margin: 30px 0 0 190px;
+    margin: 30px 0 0 200px;
 }
 .main h1{
-    margin: 30px 0 0 190px
+    margin: 30px 0 0 200px
 }
 .houses img{
-    width: 350px;
-    height: 220px;
+    width: 391px;
+    height: 281px;
     margin: 35px 0 15px 0;
 }
 .doma{
@@ -119,18 +119,17 @@ header ul{
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     width: 780px;
-    margin-left: 190px;
+    margin-left: 159px;
 }
 .houses{
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 19.62px;
     text-align: left;
-    font-family: Roboto;
+    margin-left: 41px;
 }
 .prei{
-    margin: 170px 0 0 190px;
+    margin: 170px 0 0 200px;
     font-size: 48px;
     font-weight: 500;
     line-height: 45.6px;
@@ -143,7 +142,7 @@ header ul{
     height: 500px;
     grid-template-columns: repeat(2, 1fr);
     align-content: space-around;
-    margin: 80px 0 0 190px;
+    margin: 80px 0 0 200px;
 }
 .b{
     font-size: 27px;
@@ -358,4 +357,32 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.dib{
+    position: absolute;
+    width: 340px;
+    height: 1999px;
+    top: 127px;
+    left: 1078px;    
+    background-color: #F9F9F9;
+}
+.dib img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+.os1{
+    margin-left: 50px;
+}
+.os2{
+    margin-left: 50px;
+}
+.os3{
+    margin-left: 55px;
+}
+.os4{
+    margin-left: 112px;
+}
+.os5{
+    margin-left: 117px;
 }

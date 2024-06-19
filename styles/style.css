@@ -5,7 +5,7 @@
 }
 header{
     display: flex;
-    gap: 40px;
+    gap: 68px;
 }
 .logo{
     width: 107px;
@@ -28,7 +28,7 @@ header{
 }
 .lineh{
     position: absolute;
-    width: 1060px;
+    width: 1216px;
     height: 0px;
     top: 110px;
     left: 200px;
@@ -43,13 +43,13 @@ header{
     background-color: black;
 }
 .elipseh1{
-    left: 950px;
+    left: 1090px;
 }
 .elipseh2{
-    left: 955px;
+    left: 1095px;
 }
 .elipseh3{
-    left: 960px;
+    left: 1100px;
 }
 .list{
     list-style: none;
