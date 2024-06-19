@@ -296,3 +296,81 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.build{
+    color: #9F7B50;
+}
+.in a{
+    color: black;
+}
+.in{
+    margin: 30px 0 0 200px;
+}
+.dib{
+    position: absolute;
+    width: 340px;
+    height: 1999px;
+    top: 127px;
+    left: 1078px;    
+    background-color: #F9F9F9;
+}
+.dib img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+.os1{
+    margin-left: 50px;
+}
+.os2{
+    margin-left: 50px;
+}
+.os3{
+    margin-left: 55px;
+}
+.os4{
+    margin-left: 112px;
+}
+.os5{
+    margin-left: 117px;
+}
+.main{
+    margin: 36px 0 0 200px;
+    width: 823px;
+    height: 1940px;
+}
+.main img{
+    width: 823px;
+    height: 432px;
+}
+.text{
+    margin: 35px 0 0 0;
+    /* font-family: sans-serif; */
+    color: #353333E5;
+}
+.textup{
+    margin: 25px 0 0 0;
+}
+ul li{
+    list-style: none;
+    margin: 7px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+ul{
+    margin: 30px 0 0 0;
+}
+.elipse{
+    background-color: #9F7B50;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 6px 0 0;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 33.9px;
+    text-align: left;
+    margin: 70px 0 0 0;
+}

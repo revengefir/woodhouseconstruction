@@ -41,6 +41,7 @@ header{
     height: 3px;
     top: 56px;
     background-color: black;
+    border-radius: 50%;
 }
 .elipseh1{
     left: 1090px;
