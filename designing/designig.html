@@ -4,8 +4,284 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        #designig{
+            width: 366px;
+            height: 37px;
+            top: 209px;
+            left: 199px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Noto Serif;
+            font-size: 42px;
+            font-weight: 500;
+            line-height: 37.46px;
+            text-align: left;
+        }
+        aside{
+            width: 340px;
+            height: 2144px;
+            top: 127px;
+            left: 1060px;
+            gap: 0px;
+            opacity: 0px;
+            background: #F9F9F9;
+        }
+        #woodhousesicon{
+            width: 190px;
+            height: 116.78px;
+            top: 168px;
+            left: 1135px;
+            gap: 0px;
+            opacity: 0px;
+        }
+        #woodhouses{
+            width: 273px;
+            height: 19px;
+            top: 297px;
+            left: 1093px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            text-align: left;
+            color: #353333;
+        }
+        #timberhouseicon{
+            width: 190px;
+            height: 126.99px;
+            top: 351px;
+            left: 1135px;
+            gap: 0px;
+            opacity: 0px;
+        }
+        #timberhouse{
+            width: 260px;
+            height: 19px;
+            top: 490px;
+            left: 1100px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.2px;
+            text-align: left;
+            color: #353333;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            display: flex;
+            gap: 40px;
+        }
+        .logo{
+            width: 107px;
+            height: 107px;
+            margin-left: 186px;
+        }
+        .numbers{
+            font-size: 22px;
+        }
+        .telephon{
+            width: 20px;
+            height: 21px;
+            margin-top: 40px;
+            margin-left: 80px;
+        }
+        .htext{
+            margin-top: 45px;
+            font-size: 18px;
+            height: 25px;
+        }
+        .lineh{
+            position: absolute;
+            width: 1060px;
+            height: 0px;
+            top: 110px;
+            left: 200px;
+            background-color: #3533334D;
+            border: 1px solid #3533334D
+        }
+        .elipseh{
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            top: 56px;
+            background-color: black;
+        }
+        .elipseh1{
+            left: 950px;
+        }
+        .elipseh2{
+            left: 955px;
+        }
+        .elipseh3{
+            left: 960px;
+        }
+        .list{
+            list-style: none;
+            margin-top: 48px;
+        }
+        header ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        header ul li a:hover{
+            color: #725C44;
+        }
+        header ul li ul{
+            position: absolute;
+            box-shadow: -3px 3px 10px 0px #1D1B1B24;
+            border: 1px solid #3533331A;
+            opacity:0;
+            visibility: hidden;
+            transition: 0.5s;
+            width: 260px;
+            height: 241px;
+        }
+        header ul li:hover ul{
+            opacity:1;
+            visibility:visible;
+        }
+        .htext a:hover{
+            color: #725C44;
+        }
+        .htext a{
+            text-decoration: none;
+            color: black;
+        }
+        header ul li ul li:hover{
+            background-color: #725C44;
+        }
+        header ul li ul li a:hover{
+            color: white;
+        }
+        header ul li ul li{
+            width: 100%;
+            height: 20%;
+            padding: 10px;
+        }
+        header ul{
+            list-style: none;
+        }
+        .titles{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: Noto Serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-align: left;
+        }
+        .razbrevnovka_razbrusovka{
+            width: 251px;
+            height: 22px;
+            top: 316px;
+            left: 199px;
+            gap: 0px;
+            opacity: 0px;
+            border-bottom: 1px solid #353333;
+            text-decoration: none;
+            color: #353333;
+        }
+        .AC_section{
+            width: 91px;
+            height: 22px;
+            top: 316px;
+            left: 475px;
+            gap: 0px;
+            opacity: 0px;
+            color: #35333399;
+        }
+        .KR_section{
+            width: 91px;
+            height: 22px;
+            top: 316px;
+            left: 591px;
+            gap: 0px;
+            opacity: 0px;
+            color: #35333399;
+        }
+        .frame_structures{
+            width: 222px;
+            height: 22px;
+            top: 316px;
+            left: 707px;
+            gap: 0px;
+            opacity: 0px;
+            color: #35333399;
+        }
+        th{
+            width: 189px;
+            height: 19px;
+            top: 412px;
+            left: 305px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+    </style>
 </head>
 <body>
-    
-</body>
+    <!--header-->
+    <header>
+        <img src="https://s3-alpha-sig.figma.com/img/2a5d/ac46/0e4f5c47182f42b07f80c885fbdd4cae?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=btVaLUbFDLASMrYvQHPMlE0awOyPppii3yMY14WdvQ4a2nwYPy8ZlsFROXkPGUZwOF1feuGfNidfJMSyMOtRSmOE4tsExQa20WB094G1KfOt2WX86pp27lHG3-JZDJ0~RlXfXZxj5zsSRNizEQkIZcZLxkovz7D9rlmR~tQ91OUq4s5TJzw-qIj771DxYErx3cYUXyRP7vo4D3ytGW9dmjol8uLSOOCjqJtjWGcC876irAia~sclXmUzXnnulkgEm7mDVa6udHGmeZqcWZBjt7tSbo7jPl3nRhBTz1Fv5G5j37dwKIM6xVRxZwSEOKOhuhmD7kuHl2Qs35CfQ~aKDA__" class="logo">
+        <div class="htext"><a href="#">Главная</a></div>
+            <ul class="list"><li><a href="#">Продукция</a>
+                    <ul>
+                        <li><a href="#">цена на срубы под баню</a></li>
+                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
+                    </ul>
+                </li>
+            </ul>
+        <div class="htext"><a href="#">Строительство</a></div>
+        <div class="htext"><a href="#">Проектирование</a></div>
+        <div class="htext"><a href="#">Галерея</a></div>
+        <div class="elipseh elipseh1"></div><div class="elipseh elipseh2"></div><div class="elipseh elipseh3"></div>
+        <div class="numbers"><img src="" class="telephon"> +7 (910) 007 77 79</div>
+        <div class="lineh"></div>
+    </header>
+    <!--Контент сайта-->
+    <content>
+        <p id="designig">Проектирование</p>
+        <div class="titles">
+            <a href="#" class="razbrevnovka_razbrusovka"><p>Разбревновка, разбрусовка</p></a>
+            <p class="AC_section">Раздел АС</p>
+            <p class="KR_section">Раздел КР</p>
+            <p class="frame_structures">Каркасных сооружений</p>
+        </div>
+        <!--Таблица: проект сруба в составе-->
+        <table>
+            <tr><th>Проект сруба в составе</th></tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+    </content>
+    <aside>
+        <img id="woodhousesicon" src="https://s3-alpha-sig.figma.com/img/d35d/7140/3a0691a84716c0dba253654bebb6c33b?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WZoJuFutO1wS1sEmsIaj9Vcj-Ud3Da468cajy43fs7DHW4DxC63VyYT8HQKFJpOvx68MagDKzMGvr~bUOCiV1GLfeBUrKQaH7G~7AHx4P9LilfI-Xa80KgKxUMwr4leHnyHyjuoQRch1JU4CfeeOuo8dYSZYLr-ZZqlSHj~MtivohflOIsnbS6pHdYlSXWAw4stgiGIxm7ByYbJpYNZlx2EKvcmck9ac8CueVK7J3OkpiA87T3p9gOtbV8MOsZVfvFwu90pjGbpbnwr-6TbGVcGC76x8cp-CkZMH7ED75W~tfz-ZU6ieIqcfKcb9Wm6ImG3fAYEl3adjptuumD5Bjw__" alt="">
+        <p id="woodhouses">Дома из оцилиндрованного бревна</p>
+        <img id="timberhouseicon" src="https://s3-alpha-sig.figma.com/img/51fd/6ba6/ecb03564d9fc29709e986baf01ab9cf4?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SpytWZEpu7gYMe1GHVSoL6rmfrxA3RTvmbzZSN~mvHiGRgs3ToefAqMQwVgtNAGeNibjIiy6TRVz5DocVwyCbaFowLW4d0itmqaCilY-Ri1VkvUnsJnfT0GTh-bQHFgIfgisU77VHci9fhYyLzIwPi9K4jDi2Fx41QQFF1fA4sQQsj1shheIRDPnPZlUoABUphf6LqZz5IwNvCk7gGBEnIkLaQZkl2A0ctWwkRv5o9LXoXWwC9EhziyAACK4NWYAvs85IIc8Oru5OVaxrZRwP5PFbSYvAEYtT3YSwSVFvw4tEQYfi~V1vb2rqAsYtbWvT2frPD1DWG9LZas8vjjhJg__" alt="">
+        <p id="timberhouse">Дома из профилированного бруса</p>
+        <img src="https://s3-alpha-sig.figma.com/img/35c2/57c9/7f490be170f20516a78157339ff517a3?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YWy8gGqNQNXkZvKJqwHz6xmdhfqqcBs-lFMpZgr5GNAYMVzdMoCP-xONryAen750r9lZhnUY9hTzQ~IVYzcPEJAlb7ph1JebzByTHewkBsCftu9a~jl7ydl~NRzFqMdgtZrvekUzR4fRXTRXCTWp4I7JEDiumS9IMh3WGDMjlKNPXVEiY9fO4edAhX20qenj6nD7-R6cz8LBB9j2TaV1xZV4dECBa7uHP1KKyoju~saUb4Mh5MZgToued9eMnjTOHN1~x89WpxwrloipcV7wS1RlQEsjr-wajAfA-wSAha4AGPJ6m6s-2pQjF1dzm9r7IfVRBPaNhDOc5zZVI0BkRQ__" alt="">
+        <p>Дома из клееного бруса под ключ</p>
+    </aside>
+    <!--footer-->
+    <footer><!--soon--></footer>
 </html>
