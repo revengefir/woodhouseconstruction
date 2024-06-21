@@ -1,14 +1,14 @@
 .mainhead{
     width: 1381px;
     height: 1040px;
-    margin-top: 174px;
-    margin-left: 19px;
+    top: 174px;
+    left: 19px;
 }
 .mainhead h1{
     width: 489px;
     height: 164px;
-    margin-top: 226px;
-    margin-left: 200px;
+    top: 226px;
+    left: 200px;
     gap: 0px;
     opacity: 0px;
     font-family: Noto Serif;
@@ -17,32 +17,53 @@
     line-height: 82.06px;
     text-align: left;
 }
-.mainhead p{
+#buildp{
     width: 619px;
     height: 86px;
-    margin-top: 420px;
-    margin-left: 200px;
+    top: 420px;
+    left: 200px;
     gap: 0px;
     opacity: 0px;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 400;
     line-height: 43.2px;
+    text-align: left;   
+}
+#minip{
+    width: 415px;
+    height: 93px;
+    top: 640px;
+    left: 204px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
     text-align: left;
 }
-.Brevno{
+#Brevno{
     width: 302px;
     height: 287px;
-    margin-top: 450px;
-    margin-left: 1048px;
+    top: 450px;
+    left: 1048px;
     gap: 0px;
     opacity: 0px;
 }
-.Dom{
+#Dom{
     width: 1200px;
     height: 669px;
-    margin-top: 545px;
-    margin-left: 200px;
+    top: 545px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+}
+#logo2{
+    width: 134px;
+    height: 134px;
+    top: 1075px;
+    left: 214px;
     gap: 0px;
     opacity: 0px;
 }
