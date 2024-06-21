@@ -1,0 +1,48 @@
+.mainhead{
+    width: 1381px;
+    height: 1040px;
+    margin-top: 174px;
+    margin-left: 19px;
+}
+.mainhead h1{
+    width: 489px;
+    height: 164px;
+    margin-top: 226px;
+    margin-left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Noto Serif;
+    font-size: 92px;
+    font-weight: 500;
+    line-height: 82.06px;
+    text-align: left;
+}
+.mainhead p{
+    width: 619px;
+    height: 86px;
+    margin-top: 420px;
+    margin-left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: left;
+}
+.Brevno{
+    width: 302px;
+    height: 287px;
+    margin-top: 450px;
+    margin-left: 1048px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Dom{
+    width: 1200px;
+    height: 669px;
+    margin-top: 545px;
+    margin-left: 200px;
+    gap: 0px;
+    opacity: 0px;
+}
