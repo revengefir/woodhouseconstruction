@@ -312,7 +312,7 @@ footer {
 .dib{
     position: absolute;
     width: 340px;
-    height: 1375px;
+    height: 1425px;
     top: 127px;
     left: 1078px;    
     background-color: #F9F9F9;
@@ -359,17 +359,23 @@ button{
     line-height: 25.2px;
     margin: 20px 0 0 200px;
 }
-.vk{
-    width: 28px;
+.vk img{
+    width: 40px;
     height: 28px;
 }
-.yt{
-    width: 34px;
-    height: 34px;
+.yt img{
+    width: 26px;
+    margin-top: 2px;
 }
-.vi{
+.vi img{
     width: 27px;
     height: 27px;
+}
+.soc{
+    width: 100px;
+    display: flex;
+    margin: 0 0 0 200px;
+    gap: 5px;
 }
 .map{
     width: 823px;
@@ -382,9 +388,50 @@ button{
 table{
     width: 558px;
     height: 570px;
-    border: 1px solid black;
-    margin: 0 0 0 465px;
+    float: right;
+    margin: 50px 825px 0 0;
 }
 td{
-    border: 1px solid black;
+    border: 1px solid #C2C2C2;
+}
+.gorod{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.time{
+    width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+.number{
+    width: 150px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.text1, .text2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    width: 250px;
+}
+.text1{
+    margin: 0 0 0 21px;
+    float: left;
+}
+.text2{
+    float: right;
+}
+.rekv{
+    background-color: #52483B;
+}
+.rek{
+    color: white;
+    margin: 0 0 0 21px;
+}
+.mi{
+    margin-top: 43px;
 }
