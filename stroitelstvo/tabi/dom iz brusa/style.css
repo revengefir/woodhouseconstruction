@@ -1,3 +1,120 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.wrapper {
+    display: flex;
+    width: 1200px;
+}
+
+main {
+    font-family: Roboto;
+    width: 810px;
+    margin-left: 200px;
+    margin-right: 37px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.way {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19.2px;
+    color:#353333E5;
+    display: flex;
+    margin-bottom: 47px;
+}
+
+.way a {
+    color: #353333;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: none;
+    border-bottom: 1px solid #353333;
+    padding-bottom: 3px;
+}
+
+.way p {
+    color: #9F7B50;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content h1{
+    font-family: Noto Serif;
+    font-size: 42px;
+    line-height: 37.46px;
+    font-weight: 500px;
+    color: #353333;
+}
+
+.offers {
+    display: flex;
+}
+
+.offers img {
+    width: 391px;
+    height: 281px;
+    margin-bottom: 25px;
+    margin-top: 65px;
+}
+
+.proftimblerDIV {
+    margin-right: 41px;
+}
+
+.offers p {
+    font-size: 22px;
+    line-height: 19.62px;
+    color: #353333;
+    font-weight: 500;
+}
+
+aside {
+    width: 340px;
+    height: 1037px;
+    margin-right: 200px;
+    margin-top: 61px;
+    background-color: #F9F9F9;
+}
+
+aside div p{
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #353333;
+    margin: 0 auto;
+    margin-top: 12.22px;
+}
+
+aside div img {
+    width: 190px;
+    height: 116.78px;
+    margin: 0px 75px;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -99,6 +216,7 @@ header ul li ul li{
 header ul{
     list-style: none;
 }
+
 
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -291,6 +409,8 @@ footer {
 .totopDIV2:hover {
     background-color: white;
 }
+
+
 .totoplink img{
     width: 42.14px;
     height: 42.14px;
@@ -298,141 +418,200 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.build{
-    color: #9F7B50;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
 }
-.in a{
-    color: black;
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.in{
-    margin: 30px 0 0 200px;
-}
-.gap{
-    margin: 0 5px 0 5px;
-}
-.dib{
-    position: absolute;
-    width: 340px;
-    height: 1425px;
-    top: 127px;
-    left: 1078px;    
-    background-color: #F9F9F9;
-}
-.dib img{
-    width: 190px;
-    height: 116.78px;
-    margin: 20px 0 0 75px;
-}
-.os1{
-    margin-left: 50px;
-}
-.os2{
-    margin-left: 50px;
-}
-.os3{
-    margin-left: 55px;
-}
-.os4{
-    margin-left: 112px;
-}
-.os5{
-    margin-left: 117px;
-}
-.main{
-    height: 1347px;
-}
-h1{
-    font-family: sans-serif;
-    font-size: 42px;
-    font-weight: 500;
-    line-height: 37.46px;
-    text-align: left;
-    margin: 50px 0 0 199px;
-}
-button{
-    width: 214px;
-    height: 53px;
+
+footer {
     background-color: #353333;
-    color: #FFFFFFE5;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25.2px;
-    margin: 20px 0 0 200px;
+    width: 1600px;
+    height: 474px;
 }
-.vk img{
-    width: 40px;
-    height: 28px;
-}
-.yt img{
-    width: 26px;
-    margin-top: 2px;
-}
-.vi img{
-    width: 27px;
-    height: 27px;
-}
-.soc{
-    width: 100px;
+
+.footerWrapperN1 {
     display: flex;
-    margin: 0 0 0 200px;
-    gap: 5px;
+    flex-direction: row;
+    margin-left: 186px;
+    margin-right: 263px;
+    padding-top: 21px;
+    height: 398px;
+    width: 1200px;
 }
-.map{
-    width: 823px;
-    height: 400px;
-    margin: 50px 0 0 200px;
+
+.footerlogo {
+    width: 107px;
+    height: 107px;
+    margin-right: 95px;
+    margin-top: 28px;
 }
-.text{
-    margin: 63px 0 0 200px;
+
+.houseLI, .bathLI, .footerlinksLI {
+    list-style: none;
 }
-table{
-    width: 558px;
-    height: 570px;
-    float: right;
-    margin: 50px 825px 0 0;
-}
-td{
-    border: 1px solid #C2C2C2;
-}
-.gorod{
-    width: 200px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-}
-.time{
-    width: 180px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22.4px;
-}
-.number{
-    width: 150px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-}
-.text1, .text2{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
-    width: 250px;
-}
-.text1{
-    margin: 0 0 0 21px;
-    float: left;
-}
-.text2{
-    float: right;
-}
-.rekv{
-    background-color: #52483B;
-}
-.rek{
+
+.houseLI a, .bathLI a, .footerlinks, .housesUL, .bathsUL, .contacts{
+    text-decoration: none;
     color: white;
-    margin: 0 0 0 21px;
+    font-size: 18px;
+    line-height: 21.6px;
 }
-.mi{
-    margin-top: 43px;
+
+.bathsUL {
+    line-height: 16.06px;
+    margin-top: 36px;
+}
+
+.houseLI a, .bathLI a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.houseLI a:hover, .bathLI a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.buildingsDIV {
+    margin-top: 66px;
+}
+
+.houseLI {
+    margin-top: 8px;
+}
+
+#housesfirst {
+    margin-top: 9px
+}
+
+.bathLI {
+    margin-top: 8px
+}
+
+#bathsfirst {
+    margin-top: 15px
+}
+
+.footerlinksDIV {
+    margin-left: 164px;
+    margin-right: 197px;
+    margin-top: 66px;
+}
+
+.footerlinksLI {
+    margin-bottom: 20px;
+}
+
+.contacts {
+    margin-top: 66px;
+}
+
+.worktimeLI {
+    list-style: none;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;    
+}
+
+.worktimeLI img {
+    margin-right: 5px;
+    height: 21px;
+    width: 21px;
+}
+
+.footernumber {
+    font-size: 22px;
+    line-height: 19.62px;
+    margin: 23px 0 26px 0;
+    width: 186px;
+}
+
+.email {
+    margin-bottom: 29px;
+}
+
+.emaillink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.emailpicture {
+    height: 15.62px;
+    width: 21.88px;
+    margin-right: 6.56px;
+}
+
+.contact_logos {
+    width: 142px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_logo:first-child a img:hover{
+    background-image: url(/img/VKhoverlogo.webp);
+    background-size: cover;
+}
+
+.footerWrapperN2 {
+    height: 59px;
+    width: 1200px;
+    margin-left: 199px;
+    margin-right: 199px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 11px;
+}
+
+.footerWrapperN2 p {
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-right: 42px;
+}
+
+.lastlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.agreement {
+    margin-right: 15px;
+}
+
+.totopDIV{
+    width: 59.59px;
+    height: 59.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.totopDIV2{
+    width: 42.14px;
+    height: 42.14px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.totoplink {
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totopDIV2:hover {
+    background-color: white;
 }
