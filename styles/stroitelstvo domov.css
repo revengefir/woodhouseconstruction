@@ -1,0 +1,430 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+    display: flex;
+    gap: 68px;
+}
+.logo{
+    width: 107px;
+    height: 107px;
+    margin-left: 186px;
+}
+.numbers{
+    font-size: 22px;
+}
+.telephon{
+    width: 20px;
+    height: 21px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.htext{
+    margin-top: 45px;
+    font-size: 18px;
+    height: 25px;
+}
+.lineh{
+    position: absolute;
+    width: 1216px;
+    height: 0px;
+    top: 110px;
+    left: 200px;
+    background-color: #3533334D;
+    border: 1px solid #3533334D
+}
+.elipseh{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 56px;
+    background-color: black;
+    border-radius: 50%;
+}
+.elipseh1{
+    left: 1090px;
+}
+.elipseh2{
+    left: 1095px;
+}
+.elipseh3{
+    left: 1100px;
+}
+.list{
+    list-style: none;
+    margin-top: 48px;
+}
+header ul li a{
+	text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    color: #725C44;
+}
+header ul li ul{
+    position: absolute;
+    box-shadow: -3px 3px 10px 0px #1D1B1B24;
+    border: 1px solid #3533331A;
+	opacity:0;
+	visibility: hidden;
+	transition: 0.5s;
+    width: 260px;
+    height: 241px;
+    background-color: white;
+}
+header ul li:hover ul{
+    opacity:1;
+	visibility:visible;
+}
+.htext a:hover{
+    color: #725C44;
+}
+.htext a{
+    text-decoration: none;
+    color: black;
+}
+header ul li ul li:hover{
+    background-color: #725C44;
+}
+header ul li ul li a:hover{
+    color: white;
+}
+header ul li ul li{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+}
+header ul{
+    list-style: none;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    background-color: #353333;
+    width: 1600px;
+    height: 474px;
+}
+
+.footerWrapperN1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 186px;
+    margin-right: 263px;
+    padding-top: 21px;
+    height: 398px;
+    width: 1200px;
+}
+
+.footerlogo {
+    width: 107px;
+    height: 107px;
+    margin-right: 95px;
+    margin-top: 28px;
+}
+
+.houseLI, .bathLI, .footerlinksLI {
+    list-style: none;
+}
+
+.houseLI a, .bathLI a, .footerlinks, .housesUL, .bathsUL, .contacts{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.bathsUL {
+    line-height: 16.06px;
+    margin-top: 36px;
+}
+
+.houseLI a, .bathLI a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.houseLI a:hover, .bathLI a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.buildingsDIV {
+    margin-top: 66px;
+}
+
+.houseLI {
+    margin-top: 8px;
+}
+
+#housesfirst {
+    margin-top: 9px
+}
+
+.bathLI {
+    margin-top: 8px
+}
+
+#bathsfirst {
+    margin-top: 15px
+}
+
+.footerlinksDIV {
+    margin-left: 164px;
+    margin-right: 197px;
+    margin-top: 66px;
+}
+
+.footerlinksLI {
+    margin-bottom: 20px;
+}
+
+.contacts {
+    margin-top: 66px;
+}
+
+.worktimeLI {
+    list-style: none;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;    
+}
+
+.worktimeLI img {
+    margin-right: 5px;
+    height: 21px;
+    width: 31px;
+}
+
+.footernumber {
+    font-size: 22px;
+    line-height: 19.62px;
+    margin: 23px 0 26px 0;
+    width: 186px;
+}
+
+.email {
+    margin-bottom: 29px;
+}
+
+.emaillink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.emailpicture {
+    height: 15.62px;
+    width: 21.88px;
+    margin-right: 6.56px;
+}
+
+.contact_logos {
+    width: 142px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_logo:first-child a img:hover{
+    background-image: url(../../../woodhouseconstruction/woodhouseconstruction/img/VKhoverlogo.png);
+    background-size: cover;
+}
+
+.footerWrapperN2 {
+    height: 59px;
+    width: 1200px;
+    margin-left: 199px;
+    margin-right: 199px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 11px;
+}
+
+.footerWrapperN2 p {
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-right: 42px;
+}
+
+.lastlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.agreement {
+    margin-right: 15px;
+}
+
+.totopDIV{
+    width: 59.59px;
+    height: 59.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.totopDIV2{
+    width: 42.14px;
+    height: 42.14px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.totoplink{
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totopDIV2:hover {
+    background-color: white;
+}
+.totoplink img{
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.build{
+    color: #9F7B50;
+}
+.in a{
+    color: black;
+}
+.in{
+    margin: 30px 0 0 200px;
+}
+.gap{
+    margin: 0 5px 0 5px;
+}
+.dib{
+    position: absolute;
+    width: 340px;
+    height: 2630px;
+    top: 127px;
+    left: 1078px;    
+    background-color: #F9F9F9;
+}
+.dib img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+.os1{
+    margin-left: 50px;
+}
+.os2{
+    margin-left: 50px;
+}
+.os3{
+    margin-left: 55px;
+}
+.os4{
+    margin-left: 112px;
+}
+.os5{
+    margin-left: 117px;
+}
+.main{
+    height: 2555px;
+    margin: 0 0 0 200px;
+    width: 440px;
+}
+h1{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 37.46px;
+    margin: 50px 0 67px 0;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 41px;
+}
+.photo{
+    width: 391px;
+    height: 281px;
+}
+.photos p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 19.62px;
+    text-align: left;
+    margin: 25px 0 0 0;
+}
+.buttons{
+    width: 585px;
+    height: 128px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 70px 0 41px 0;
+}
+button{
+    width: 178px;
+    height: 53px;
+    background-color: white;
+}
+.kontent{
+    width: 820px;
+    height: 655px;
+}
+.small{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+.big{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45.6px;
+    text-align: left;
+    margin: 0 0 35px 0;
+}
+.ll{
+    margin: 0 0 70px 0;
+}
+.prei{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 45.6px;
+    text-align: left;
+    width: 860px;
+}
+.preimushestva{
+    display: grid;
+    width: 1100px;
+    height: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: space-around;
+    margin: 80px 0 0 0;
+}
+.b{
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+}
+.v{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 25px;
+}
+.x{
+    width: 250px;
+}
