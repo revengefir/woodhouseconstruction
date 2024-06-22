@@ -10,7 +10,6 @@
 .wrapper {
     width: 1200px;
     display: flex;
-    margin-bottom: 170px;
 }
 
 main {
@@ -54,79 +53,22 @@ main {
 .main_content h1 {
     font-family: Noto Serif;
     font-size: 42px;
-    line-height: 50.4px;
+    line-height: 37.46px;
     font-weight: 500;
     color: #353333;
-    margin-bottom: 50px;
 }
 
-.buildTimberHouse {
-    margin-bottom: 70px;
-}
-
-.timberHouseAdvantages h2{
-    margin-bottom: 35px;
-}
-
-.timberHouseAdvantages ul{
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-.moreinf, .main_content p{
-    font-size: 16px;
-    line-height: 22.4px;
-    color: #353333E5;
-    font-weight: 400;
-}
-
-.main_content h2 {
-    font-family: Noto Serif;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 45.6px;
-    color: #353333;
-}
-
-.main_content li{
-    list-style: none;
-    display: flex;
-    align-items: baseline;
-}
-
-.main_content li img {
-    height: 10px;
-    width: 10px;
-    margin-right: 5px;
-}
-
-.advantages h2 {
+.main_content p {
     font-weight: 500;
+    font-size: 22px;
+    line-height: 19.62px;
 }
 
-.advantages_list_item .smallinf{
-    font-size: 28px;
-    line-height: 33.6px;
-    font-weight: 400px;
+.main_content img {
+    width: 391px;
+    height: 281px;
+    margin-top: 65px;
     margin-bottom: 25px;
-}
-
-.advantages {
-    margin-top: 100px;
-}
-
-.advantages_list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 80px;
-    justify-content: space-between;
-    width: 727px;
-}
-
-.advantages_list_item {
-    width: 295px;
-    height: 159px;
-    margin-bottom: 45px;
 }
 
 
@@ -145,6 +87,7 @@ aside div p{
     color: #353333;
     margin: 0 auto;
     margin-top: 12.22px;
+    font-weight: 500;
 }
 
 aside div img {
