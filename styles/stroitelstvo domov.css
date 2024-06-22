@@ -197,7 +197,7 @@ footer {
 .worktimeLI img {
     margin-right: 5px;
     height: 21px;
-    width: 31px;
+    width: 21px;
 }
 
 .footernumber {
@@ -231,7 +231,7 @@ footer {
 }
 
 .contact_logo:first-child a img:hover{
-    background-image: url(../../../woodhouseconstruction/woodhouseconstruction/img/VKhoverlogo.png);
+    background-image: url(img/VKhoverlogo.webp);
     background-size: cover;
 }
 

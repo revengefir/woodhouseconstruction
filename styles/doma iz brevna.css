@@ -99,7 +99,6 @@ header ul li ul li{
 header ul{
     list-style: none;
 }
-
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -280,7 +279,7 @@ footer {
     border-radius: 50%;
 }
 
-.totoplink {
+.totoplink{
     width: 42.14px;
     height: 42.14px;
     display: flex;
@@ -313,7 +312,7 @@ footer {
 .dib{
     position: absolute;
     width: 340px;
-    height: 1425px;
+    height: 5299px;
     top: 127px;
     left: 1078px;    
     background-color: #F9F9F9;
@@ -339,100 +338,49 @@ footer {
     margin-left: 117px;
 }
 .main{
-    height: 1347px;
+    height: 5221px;
+    margin: 0 0 0 200px;
+    width: 440px;
+}
+.prei{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 45.6px;
+    text-align: left;
+    width: 860px;
+}
+.preimushestva{
+    display: grid;
+    width: 1100px;
+    height: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: space-around;
+    margin: 80px 0 0 0;
+}
+.b{
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+}
+.v{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 25px;
+}
+.x{
+    width: 250px;
 }
 h1{
-    font-family: sans-serif;
     font-size: 42px;
     font-weight: 500;
     line-height: 37.46px;
-    text-align: left;
-    margin: 50px 0 0 199px;
+    margin: 50px 0 67px 0;
 }
-button{
-    width: 214px;
-    height: 53px;
-    background-color: #353333;
-    color: #FFFFFFE5;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25.2px;
-    margin: 20px 0 0 200px;
-}
-.vk img{
-    width: 40px;
-    height: 28px;
-}
-.yt img{
-    width: 26px;
-    margin-top: 2px;
-}
-.vi img{
-    width: 27px;
-    height: 27px;
-}
-.soc{
-    width: 100px;
-    display: flex;
-    margin: 17px 0 0 200px;
-    gap: 5px;
-}
-.map{
-    width: 823px;
-    height: 400px;
-    margin: 50px 0 0 200px;
-}
-.text{
-    margin: 63px 0 0 200px;
-}
-table{
-    width: 558px;
-    height: 570px;
-    float: right;
-    margin: 50px 825px 0 0;
-}
-td{
-    border: 1px solid #C2C2C2;
-}
-.gorod{
-    width: 200px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-}
-.time{
-    width: 180px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22.4px;
-}
-.number{
-    width: 150px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-}
-.text1, .text2{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
-    width: 250px;
-}
-.text1{
-    margin: 0 0 0 21px;
-    float: left;
-}
-.text2{
-    float: right;
-}
-.rekv{
-    background-color: #52483B;
-}
-.rek{
-    color: white;
-    margin: 0 0 0 21px;
-}
-.mi{
-    margin-top: 43px;
+.photos{
+    height: 4380px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
