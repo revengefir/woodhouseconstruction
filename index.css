@@ -219,6 +219,7 @@ header ul{
     left: 1048px;
     gap: 0px;
     opacity: 0px;
+    z-index: 3;
 }
 #Dom{
     width: 1200px;
@@ -227,6 +228,7 @@ header ul{
     left: 200px;
     gap: 0px;
     opacity: 0px;
+    z-index: 0;
 }
 #logo2{
     width: 134px;
@@ -235,4 +237,16 @@ header ul{
     left: 214px;
     gap: 0px;
     opacity: 0px;
+    z-index: 1;
+}
+.white{
+    background-color: green;
+    width: 344px;
+    height: 304px;
+    margin-top: -650px;
+    margin-left: 1027px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 1;
+    position: relative;
 }
