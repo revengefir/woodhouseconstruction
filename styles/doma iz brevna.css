@@ -312,7 +312,7 @@ footer {
 .dib{
     position: absolute;
     width: 340px;
-    height: 5299px;
+    height: 5295px;
     top: 127px;
     left: 1078px;    
     background-color: #F9F9F9;
@@ -338,7 +338,6 @@ footer {
     margin-left: 117px;
 }
 .main{
-    height: 5221px;
     margin: 0 0 0 200px;
     width: 440px;
 }
@@ -355,7 +354,7 @@ footer {
     height: 500px;
     grid-template-columns: repeat(2, 1fr);
     align-content: space-around;
-    margin: 80px 0 0 0;
+    margin: 80px 0 174px 0;
 }
 .b{
     font-size: 27px;
@@ -380,7 +379,39 @@ h1{
     margin: 50px 0 67px 0;
 }
 .photos{
-    height: 4380px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 41px;
+    margin: 0 0 100px 0;
+}
+.photos div img{
+    width: 391px;
+    height: 281px;
+}
+.photos div p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 19.62px;
+    margin: 25px 0 0 0;
+}
+.up{
+    display: flex;
+    gap: 41px;
+}
+.up img{
+    width: 391px;
+    height: 281px;
+}
+.up div p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 19.62px;
+    margin: 25px 0 0 0;
+}
+h2{
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45.6px;
+    width: 900px;
+    margin: 100px 0 30px 0;
 }
