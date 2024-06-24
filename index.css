@@ -202,8 +202,8 @@ header ul{
 #minip{
     width: 415px;
     height: 93px;
-    margin-top: 640px;
-    margin-left: 204px;
+    top: 640px;
+    left: 204px;
     gap: 0px;
     opacity: 0px;
     font-family: Roboto;
@@ -249,4 +249,15 @@ header ul{
     opacity: 0px;
     z-index: 1;
     position: relative;
+}
+.white2{
+    width: 496px;
+    background-color: aquamarine;
+    height: 138px;
+    top: 621px;
+    left: 19px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 1;
+    position: absolute;
 }
