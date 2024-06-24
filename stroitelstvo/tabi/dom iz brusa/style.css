@@ -350,7 +350,7 @@ footer {
 }
 
 .contact_logo:first-child a img:hover{
-    background-image: url(/img/VKhoverlogo.webp);
+    background-image: url(../../../img/VKhoverlogo.webp);
     background-size: cover;
 }
 
@@ -556,7 +556,7 @@ footer {
 }
 
 .contact_logo:first-child a img:hover{
-    background-image: url(/img/VKhoverlogo.webp);
+    background-image: url(../../../img/VKhoverlogo.webp);
     background-size: cover;
 }
 
