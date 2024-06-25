@@ -231,7 +231,7 @@ footer {
 }
 
 .contact_logo:first-child a img:hover{
-    background-image: url(img/VKhoverlogo.webp);
+    background-image: url(../img/VKhoverlogo.webp);
     background-size: cover;
 }
 
@@ -420,6 +420,7 @@ select{
     height: 340px;
     border: 1px 0px 0px 0px;
     margin: 100px 0 0 0;
+    padding: 27px 0 0 0;
 }
 .line{
     background-color: grey;
@@ -432,7 +433,7 @@ select{
     font-size: 38px;
     font-weight: 500;
     line-height: 45.6px;
-    margin: 27px 0 17px 46px;
+    margin: 0 0 17px 46px;
 }
 .srochno{
     font-size: 18px;
