@@ -231,7 +231,7 @@ footer {
 }
 
 .contact_logo:first-child a img:hover{
-    background-image: url(img/VKhoverlogo.webp);
+    background-image: url(../img/VKhoverlogo.webp);
     background-size: cover;
 }
 
@@ -279,7 +279,7 @@ footer {
     border-radius: 50%;
 }
 
-.totoplink{
+.totoplink {
     width: 42.14px;
     height: 42.14px;
     display: flex;
