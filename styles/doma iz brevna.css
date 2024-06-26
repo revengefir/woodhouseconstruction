@@ -2,31 +2,31 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    color: #353333;
 }
 header{
     display: flex;
-    gap: 68px;
+    gap: 40px;
+    font-family: Roboto;
 }
-.logo{
+#logo{
     width: 107px;
     height: 107px;
-    margin-left: 186px;
+    margin: 0 25px 0 186px;
 }
-.numbers{
+#numbers{
     font-size: 22px;
 }
-.telephon{
+#telephon{
     width: 20px;
     height: 21px;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin: 40px 0 0 148px;
 }
 .htext{
-    margin-top: 45px;
+    margin: 45px 0 0 0;
     font-size: 18px;
-    height: 25px;
 }
-.lineh{
+#lineh{
     position: absolute;
     width: 1216px;
     height: 0px;
@@ -39,29 +39,22 @@ header{
     position: absolute;
     width: 3px;
     height: 3px;
-    top: 56px;
+    top: 58px;
     background-color: black;
     border-radius: 50%;
 }
 .elipseh1{
-    left: 1090px;
+    left: 1030px;
 }
 .elipseh2{
-    left: 1095px;
+    left: 1035px;
 }
 .elipseh3{
-    left: 1100px;
-}
-.list{
-    list-style: none;
-    margin-top: 48px;
+    left: 1040px;
 }
 header ul li a{
 	text-decoration: none;
     color: black;
-}
-header ul li a:hover{
-    color: #725C44;
 }
 header ul li ul{
     position: absolute;
@@ -70,15 +63,15 @@ header ul li ul{
 	opacity:0;
 	visibility: hidden;
 	transition: 0.5s;
-    width: 260px;
-    height: 241px;
+    width: 344px;
+    height: 221px;
     background-color: white;
 }
 header ul li:hover ul{
     opacity:1;
 	visibility:visible;
 }
-.htext a:hover{
+.htext:hover{
     color: #725C44;
 }
 .htext a{
@@ -88,8 +81,8 @@ header ul li:hover ul{
 header ul li ul li:hover{
     background-color: #725C44;
 }
-header ul li ul li a:hover{
-    color: white;
+.hcolor:hover{
+    color: #FFFFFFE5;
 }
 header ul li ul li{
     width: 100%;
@@ -98,6 +91,92 @@ header ul li ul li{
 }
 header ul{
     list-style: none;
+}
+#special{
+    color: #9F7B50;
+}
+#road a{
+    color: black;
+}
+#road{
+    margin: 30px 0 0 200px;
+    font-family: Roboto;
+}
+.gap{
+    margin: 0 5px 0 5px;
+}
+#main{
+    margin: 0 0 0 200px;
+    width: 1216px;
+    height: 4300px;
+}
+#h1{
+    margin: 50px 0 65px 0;
+    font-family: Noto SerifM;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 37.46px;
+}
+#aside{
+    position: absolute;
+    width: 340px;
+    height: 5390px;
+    top: 127px;
+    left: 1078px;    
+    background-color: #F9F9F9;
+    font-family: Roboto;
+}
+#aside img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+#os1{
+    margin-left: 33px;
+}
+#os2{
+    margin-left: 40px;
+}
+#os3{
+    margin-left: 41px;
+}
+#os4{
+    margin-left: 112px;
+}
+#os5{
+    margin-left: 117px;
+}
+#preimushestvaa{
+    margin: 170px 0 80px 200px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45.6px;
+    width: 885px;
+    height: 92px;
+    font-family: Noto SerifM;
+}
+#preimushestva{
+    display: grid;
+    width: 1100px;
+    height: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 80px 0 170px 0;
+    font-family: Roboto;
+    padding: 0 250px 0 200px;
+}
+.pb{
+    font-size: 27px;
+    line-height: 33.6px;
+}
+.pv{
+    width: 270px;
+    line-height: 22.4px;
+    margin-top: 25px;
+    color: #353333E5;
+}
+.px{
+    width: 310px;
+    margin: 0 150px 0 0;
 }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -297,92 +376,13 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.build{
-    color: #9F7B50;
-}
-.in a{
-    color: black;
-}
-.in{
-    margin: 30px 0 0 200px;
-}
-.gap{
-    margin: 0 5px 0 5px;
-}
-.dib{
-    position: absolute;
-    width: 340px;
-    height: 5295px;
-    top: 127px;
-    left: 1078px;    
-    background-color: #F9F9F9;
-}
-.dib img{
-    width: 190px;
-    height: 116.78px;
-    margin: 20px 0 0 75px;
-}
-.os1{
-    margin-left: 50px;
-}
-.os2{
-    margin-left: 50px;
-}
-.os3{
-    margin-left: 55px;
-}
-.os4{
-    margin-left: 112px;
-}
-.os5{
-    margin-left: 117px;
-}
-.main{
-    margin: 0 0 0 200px;
-    width: 440px;
-}
-.prei{
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 45.6px;
-    text-align: left;
-    width: 860px;
-}
-.preimushestva{
-    display: grid;
-    width: 1100px;
-    height: 500px;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: space-around;
-    margin: 80px 0 174px 0;
-}
-.b{
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 33.6px;
-    text-align: left;
-}
-.v{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-    text-align: left;
-    margin-top: 25px;
-}
-.x{
-    width: 250px;
-}
-h1{
-    font-size: 42px;
-    font-weight: 500;
-    line-height: 37.46px;
-    margin: 50px 0 67px 0;
-}
 .photos{
+    width: 820px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 41px;
     margin: 0 0 100px 0;
+    font-family: RobotoM;
 }
 .photos div img{
     width: 391px;
@@ -395,8 +395,9 @@ h1{
     margin: 25px 0 0 0;
 }
 .up{
-    display: flex;
+    display: flex; 
     gap: 41px;
+    font-family: RobotoM;
 }
 .up img{
     width: 391px;
@@ -414,4 +415,5 @@ h2{
     line-height: 45.6px;
     width: 900px;
     margin: 100px 0 30px 0;
+    font-family: Noto Serif;
 }

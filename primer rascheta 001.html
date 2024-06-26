@@ -5,55 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer rascheta 001</title>
     <link rel="stylesheet" type="text/css" href="styles/primer rascheta 001.css">
+    <link rel="stylesheet" type="text/css" href="styles\fonts.css">
 </head>
 <body>
 
     <header>
-        <img src="img/logo.png" class="logo">
-        <div class="htext"><a href="#">Главная</a></div>
-            <ul class="list"><li><a href="#">Продукция</a>
+
+        <img src="img/logo.png" id="logo">
+
+        <div class="htext"><a href="#"  class="htext">Главная</a></div>
+
+            <ul class="htext"><li><a href="#">Продукция</a>
                     <ul>
-                        <li><a href="#">Цена на срубы под баню</a></li>
-                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
-                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
-                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
-                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#" class="hcolor">цена на срубы под баню</a></li>
+                        <li><a href="#" class="hcolor">цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#" class="hcolor">цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#" class="hcolor">цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#" class="hcolor">цена на оцидиндрованное бревно</a></li>
                     </ul>
                 </li>
             </ul>
-        <div class="htext"><a href="#">Строительство</a></div>
-        <div class="htext"><a href="#">Проектирование</a></div>
-        <div class="htext"><a href="#">Галерея</a></div>
+
+        <div class="htext"><a href="#"  class="htext">Строительство</a></div>
+
+        <div class="htext"><a href="#"  class="htext">Проектирование</a></div>
+
+        <div class="htext"><a href="#"  class="htext">Галерея</a></div>
+
         <div class="elipseh elipseh1"></div><div class="elipseh elipseh2"></div><div class="elipseh elipseh3"></div>
-        <div class="numbers"><img src="img/Telephon.png" class="telephon"> +7 (910) 007 77 79</div>
-        <div class="lineh"></div>
+
+        <div id="numbers"><img src="img/Telephon.png" id="telephon"> +7 (910) 007 77 79</div>
+
+        <div id="lineh"></div>
     
     </header>
 
-    <div class="in"><a href="#" >Главная</a> <span class="gap">»</span> <a href="#" >Строительство</a> <span class="gap">»</span> <a href="#" >Деревянные дома</a> <span class="gap">»</span> <a href="#" >Дома из бревна</a> <span class="gap">»</span> <span class="build">Дома ручной работы</span></div>
+    <div id="road"><a href="#" >Главная</a> <span class="gap">»</span> <a href="#" >Строительство</a> <span class="gap">»</span> <a href="#" >Деревянные дома</a> <span class="gap">»</span> <a href="#" >Дома из бревна</a> <span class="gap">»</span> <span id="special">Дома ручной работы</span></div>
 
-    <div class="dib">
+    <div id="main">
 
-        <div><img src="img\House1.png"><br></div>
-        <div class="os1">Дома из оцилиндрованного бревна</div>
-
-        <div><img src="img\House2.png"><br></div>
-        <div  class="os2">Дома из профилированного бруса</div>
-
-        <div><img src="img\House3.png"><br></div>
-        <div  class="os3">Дома из клееного бруса под ключ</div>
-
-        <div><img src="img\House4.png"><br></div>
-        <div  class="os4">Бани из бревна</div>
-
-        <div><img src="img\House5.png"><br></div>
-        <div  class="os5">Бани из бруса</div>
-
-    </div>
-
-    <div class="main">
-
-        <h1>Дом из бревна 001</h1>
+        <p id="h1">Дом из бревна 001</p>
 
         <div class="up">
             
@@ -87,7 +78,7 @@
                         <option value="off">Без полов</option>
                         <option value="on">С полами</option></select>
                     </td>
-                    <td class="colort"><span>общая сумма:</span> 1 100 980 руб.</td>
+                    <td class="colort"><span class="obc">Общая сумма:</span> 1 100 980 руб.</td>
                     <td class="bottom">Оставить заявку</td>
                 </tr>
             </table>
@@ -108,20 +99,37 @@
 
         </div>
 
-        <div class="zayavka">
+        <div class="form">
 
-            <h1 class="h2">Оставьте заявку</h1>
+            <h1>Оставьте заявку</h1>
 
-            <p class="srochno">Не теряйте время! Получите бесплатную консультацию!</p>
+            <h3>Не теряйте время! Получите бесплатную консультацию!</h3>
 
-            <div class="num">Ваш номер телефона</div>
+            <input placeholder="Ваш номер телефона"><br>
 
-            <div class="line"></div>
-
-            <div class="button"><p class="otprav">Отправить</p></div>
+            <button>Отправить</button>
 
         </div>
     
+    </div>
+
+    <div id="aside">
+
+        <div><img src="img\House1.png"><br></div>
+        <div id="os1">Дома из оцилиндрованного бревна</div>
+
+        <div><img src="img\House2.png"><br></div>
+        <div  id="os2">Дома из профилированного бруса</div>
+
+        <div><img src="img\House3.png"><br></div>
+        <div  id="os3">Дома из клееного бруса под ключ</div>
+
+        <div><img src="img\House4.png"><br></div>
+        <div  id="os4">Бани из бревна</div>
+
+        <div><img src="img\House5.png"><br></div>
+        <div  id="os5">Бани из бруса</div>
+        
     </div>
 
     <footer>

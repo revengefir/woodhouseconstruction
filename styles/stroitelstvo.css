@@ -2,31 +2,31 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    color: #353333;
 }
 header{
     display: flex;
-    gap: 68px;
+    gap: 40px;
+    font-family: Roboto;
 }
-.logo{
+#logo{
     width: 107px;
     height: 107px;
-    margin-left: 186px;
+    margin: 0 25px 0 186px;
 }
-.numbers{
+#numbers{
     font-size: 22px;
 }
-.telephon{
+#telephon{
     width: 20px;
     height: 21px;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin: 40px 0 0 148px;
 }
 .htext{
-    margin-top: 45px;
+    margin: 45px 0 0 0;
     font-size: 18px;
-    height: 25px;
 }
-.lineh{
+#lineh{
     position: absolute;
     width: 1216px;
     height: 0px;
@@ -39,29 +39,22 @@ header{
     position: absolute;
     width: 3px;
     height: 3px;
-    top: 56px;
+    top: 58px;
     background-color: black;
     border-radius: 50%;
 }
 .elipseh1{
-    left: 1090px;
+    left: 1030px;
 }
 .elipseh2{
-    left: 1095px;
+    left: 1035px;
 }
 .elipseh3{
-    left: 1100px;
-}
-.list{
-    list-style: none;
-    margin-top: 48px;
+    left: 1040px;
 }
 header ul li a{
 	text-decoration: none;
     color: black;
-}
-header ul li a:hover{
-    color: #725C44;
 }
 header ul li ul{
     position: absolute;
@@ -70,15 +63,15 @@ header ul li ul{
 	opacity:0;
 	visibility: hidden;
 	transition: 0.5s;
-    width: 260px;
-    height: 241px;
+    width: 344px;
+    height: 221px;
     background-color: white;
 }
 header ul li:hover ul{
     opacity:1;
 	visibility:visible;
 }
-.htext a:hover{
+.htext:hover{
     color: #725C44;
 }
 .htext a{
@@ -88,8 +81,8 @@ header ul li:hover ul{
 header ul li ul li:hover{
     background-color: #725C44;
 }
-header ul li ul li a:hover{
-    color: white;
+.hcolor:hover{
+    color: #FFFFFFE5;
 }
 header ul li ul li{
     width: 100%;
@@ -99,71 +92,105 @@ header ul li ul li{
 header ul{
     list-style: none;
 }
-.build{
+#special{
     color: #9F7B50;
 }
-.in a{
+#road a{
     color: black;
 }
-.in{
+#road{
     margin: 30px 0 0 200px;
+    font-family: Roboto;
 }
 .gap{
     margin: 0 5px 0 5px;
 }
-.main h1{
-    margin: 30px 0 0 200px
+#main{
+    margin: 0 0 0 200px;
+    width: 1216px;
 }
-.houses img{
-    width: 391px;
-    height: 281px;
-    margin: 35px 0 15px 0;
+#h1{
+    margin: 50px 0 65px 0;
+    font-family: Noto SerifM;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 37.46px;
+}
+.houses{
+    font-family: RobotoM;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 19.62px;
 }
 .doma{
     display: grid;
-    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
-    width: 780px;
-    margin-left: 159px;
+    width: 890px;
 }
-.houses{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 19.62px;
-    text-align: left;
-    margin-left: 41px;
+.doma img{
+    margin: 50px 0 25px 0;
+    width: 391px;
+    height: 281px;
 }
-.prei{
-    margin: 170px 0 0 200px;
-    font-size: 48px;
+#preimushestvaa{
+    margin: 170px 0 80px 200px;
+    font-size: 38px;
     font-weight: 500;
     line-height: 45.6px;
-    text-align: left;
-    width: 860px;
+    width: 885px;
+    height: 92px;
+    font-family: Noto SerifM;
 }
-.preimushestva{
+#preimushestva{
     display: grid;
     width: 1100px;
     height: 500px;
     grid-template-columns: repeat(2, 1fr);
-    align-content: space-around;
-    margin: 80px 0 0 200px;
+    margin: 80px 0 170px 200px;
+    font-family: Roboto;
+    padding: 0 250px 0 0;
 }
-.b{
+.pb{
     font-size: 27px;
-    font-weight: 400;
     line-height: 33.6px;
-    text-align: left;
 }
-.v{
-    font-size: 16px;
-    font-weight: 400;
+.pv{
+    width: 270px;
     line-height: 22.4px;
-    text-align: left;
     margin-top: 25px;
+    color: #353333E5;
 }
-.x{
-    width: 250px;
+.px{
+    width: 310px;
+}
+#aside{
+    position: absolute;
+    width: 340px;
+    height: 2327px;
+    top: 127px;
+    left: 1078px;    
+    background-color: #F9F9F9;
+    font-family: Roboto;
+}
+#aside img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+#os1{
+    margin-left: 33px;
+}
+#os2{
+    margin-left: 40px;
+}
+#os3{
+    margin-left: 41px;
+}
+#os4{
+    margin-left: 112px;
+}
+#os5{
+    margin-left: 117px;
 }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -362,32 +389,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.dib{
-    position: absolute;
-    width: 340px;
-    height: 1999px;
-    top: 127px;
-    left: 1078px;    
-    background-color: #F9F9F9;
-}
-.dib img{
-    width: 190px;
-    height: 116.78px;
-    margin: 20px 0 0 75px;
-}
-.os1{
-    margin-left: 50px;
-}
-.os2{
-    margin-left: 50px;
-}
-.os3{
-    margin-left: 55px;
-}
-.os4{
-    margin-left: 112px;
-}
-.os5{
-    margin-left: 117px;
 }

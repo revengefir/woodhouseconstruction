@@ -1,0 +1,16 @@
+@font-face{
+	font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf');
+}
+@font-face{
+	font-family: 'RobotoM';
+    src: url('Roboto-Medium.ttf');
+}
+@font-face{
+	font-family: 'Noto Serif';
+    src: url('NotoSerif-Regular.ttf');
+}
+@font-face{
+	font-family: 'Noto SerifM';
+    src: url('NotoSerif-Medium.ttf');
+}

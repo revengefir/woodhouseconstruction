@@ -2,31 +2,31 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    color: #353333;
 }
 header{
     display: flex;
-    gap: 68px;
+    gap: 40px;
+    font-family: Roboto;
 }
-.logo{
+#logo{
     width: 107px;
     height: 107px;
-    margin-left: 186px;
+    margin: 0 25px 0 186px;
 }
-.numbers{
+#numbers{
     font-size: 22px;
 }
-.telephon{
+#telephon{
     width: 20px;
     height: 21px;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin: 40px 0 0 148px;
 }
 .htext{
-    margin-top: 45px;
+    margin: 45px 0 0 0;
     font-size: 18px;
-    height: 25px;
 }
-.lineh{
+#lineh{
     position: absolute;
     width: 1216px;
     height: 0px;
@@ -39,29 +39,22 @@ header{
     position: absolute;
     width: 3px;
     height: 3px;
-    top: 56px;
+    top: 58px;
     background-color: black;
     border-radius: 50%;
 }
 .elipseh1{
-    left: 1090px;
+    left: 1030px;
 }
 .elipseh2{
-    left: 1095px;
+    left: 1035px;
 }
 .elipseh3{
-    left: 1100px;
-}
-.list{
-    list-style: none;
-    margin-top: 48px;
+    left: 1040px;
 }
 header ul li a{
 	text-decoration: none;
     color: black;
-}
-header ul li a:hover{
-    color: #725C44;
 }
 header ul li ul{
     position: absolute;
@@ -70,15 +63,15 @@ header ul li ul{
 	opacity:0;
 	visibility: hidden;
 	transition: 0.5s;
-    width: 260px;
-    height: 241px;
+    width: 344px;
+    height: 221px;
     background-color: white;
 }
 header ul li:hover ul{
     opacity:1;
 	visibility:visible;
 }
-.htext a:hover{
+.htext:hover{
     color: #725C44;
 }
 .htext a{
@@ -88,8 +81,8 @@ header ul li:hover ul{
 header ul li ul li:hover{
     background-color: #725C44;
 }
-header ul li ul li a:hover{
-    color: white;
+.hcolor:hover{
+    color: #FFFFFFE5;
 }
 header ul li ul li{
     width: 100%;
@@ -98,6 +91,60 @@ header ul li ul li{
 }
 header ul{
     list-style: none;
+}
+#special{
+    color: #9F7B50;
+}
+#road a{
+    color: black;
+}
+#road{
+    margin: 30px 0 0 200px;
+    font-family: Roboto;
+}
+.gap{
+    margin: 0 5px 0 5px;
+}
+#main{
+    margin: 0 0 0 200px;
+    width: 1216px;
+    height: 1300px;
+}
+#h1{
+    margin: 50px 0 65px 0;
+    font-family: Noto SerifM;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 37.46px;
+}
+#aside{
+    position: absolute;
+    width: 340px;
+    height: 1378px;
+    top: 127px;
+    left: 1078px;    
+    background-color: #F9F9F9;
+    font-family: Roboto;
+}
+#aside img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+#os1{
+    margin-left: 33px;
+}
+#os2{
+    margin-left: 40px;
+}
+#os3{
+    margin-left: 41px;
+}
+#os4{
+    margin-left: 112px;
+}
+#os5{
+    margin-left: 117px;
 }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -269,7 +316,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
 
 .totopDIV2{
@@ -297,67 +344,16 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.build{
-    color: #9F7B50;
-}
-.in a{
-    color: black;
-}
-.in{
-    margin: 30px 0 0 200px;
-}
-.gap{
-    margin: 0 5px 0 5px;
-}
-.dib{
-    position: absolute;
-    width: 340px;
-    height: 1425px;
-    top: 127px;
-    left: 1078px;    
-    background-color: #F9F9F9;
-}
-.dib img{
-    width: 190px;
-    height: 116.78px;
-    margin: 20px 0 0 75px;
-}
-.os1{
-    margin-left: 50px;
-}
-.os2{
-    margin-left: 50px;
-}
-.os3{
-    margin-left: 55px;
-}
-.os4{
-    margin-left: 112px;
-}
-.os5{
-    margin-left: 117px;
-}
-.main{
-    height: 1347px;
-}
-h1{
-    font-family: sans-serif;
-    font-size: 42px;
-    font-weight: 500;
-    line-height: 37.46px;
-    text-align: left;
-    margin: 50px 0 0 199px;
-}
 button{
     width: 214px;
     height: 53px;
     background-color: #353333;
     color: #FFFFFFE5;
-    font-family: sans-serif;
+    font-family: RobotoM;
     font-size: 18px;
     font-weight: 500;
     line-height: 25.2px;
-    margin: 20px 0 0 200px;
+    margin: 20px 0 0 0;
 }
 .vk img{
     width: 40px;
@@ -374,22 +370,23 @@ button{
 .soc{
     width: 100px;
     display: flex;
-    margin: 17px 0 0 200px;
+    margin: 17px 0 0 0;
     gap: 5px;
 }
 .map{
     width: 823px;
     height: 400px;
-    margin: 50px 0 0 200px;
+    margin: 50px 0 0 0;
 }
 .text{
-    margin: 63px 0 0 200px;
+    margin: 63px 0 0 0;
 }
 table{
     width: 558px;
     height: 570px;
     float: right;
-    margin: 50px 825px 0 0;
+    margin: 0 370px 0 0;
+    font-family: Roboto;
 }
 td{
     border: 1px solid #C2C2C2;
@@ -401,9 +398,7 @@ td{
     line-height: 22.4px;
 }
 .time{
-    width: 180px;
-    font-size: 16px;
-    font-weight: 500;
+    width: 211px;
     line-height: 22.4px;
 }
 .number{
@@ -413,10 +408,8 @@ td{
     line-height: 22.4px;
 }
 .text1, .text2{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
     width: 250px;
+    color: #353333E5;
 }
 .text1{
     margin: 0 0 0 21px;
@@ -424,6 +417,7 @@ td{
 }
 .text2{
     float: right;
+    color: #353333E5;
 }
 .rekv{
     background-color: #52483B;
@@ -431,7 +425,12 @@ td{
 .rek{
     color: white;
     margin: 0 0 0 21px;
+    font-family: Noto SerifM;
 }
 .mi{
     margin-top: 43px;
+}
+.fat{
+    font-family: RobotoM;
+    color: #353333;
 }

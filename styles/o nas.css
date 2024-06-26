@@ -3,31 +3,31 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    color: #353333;
 }
 header{
     display: flex;
-    gap: 68px;
+    gap: 40px;
+    font-family: Roboto;
 }
-.logo{
+#logo{
     width: 107px;
     height: 107px;
-    margin-left: 186px;
+    margin: 0 25px 0 186px;
 }
-.numbers{
+#numbers{
     font-size: 22px;
 }
-.telephon{
+#telephon{
     width: 20px;
     height: 21px;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin: 40px 0 0 148px;
 }
 .htext{
-    margin-top: 45px;
+    margin: 45px 0 0 0;
     font-size: 18px;
-    height: 25px;
 }
-.lineh{
+#lineh{
     position: absolute;
     width: 1216px;
     height: 0px;
@@ -40,29 +40,22 @@ header{
     position: absolute;
     width: 3px;
     height: 3px;
-    top: 56px;
+    top: 58px;
     background-color: black;
     border-radius: 50%;
 }
 .elipseh1{
-    left: 1090px;
+    left: 1030px;
 }
 .elipseh2{
-    left: 1095px;
+    left: 1035px;
 }
 .elipseh3{
-    left: 1100px;
-}
-.list{
-    list-style: none;
-    margin-top: 48px;
+    left: 1040px;
 }
 header ul li a{
 	text-decoration: none;
     color: black;
-}
-header ul li a:hover{
-    color: #725C44;
 }
 header ul li ul{
     position: absolute;
@@ -71,15 +64,15 @@ header ul li ul{
 	opacity:0;
 	visibility: hidden;
 	transition: 0.5s;
-    width: 260px;
-    height: 241px;
+    width: 344px;
+    height: 221px;
     background-color: white;
 }
 header ul li:hover ul{
     opacity:1;
 	visibility:visible;
 }
-.htext a:hover{
+.htext:hover{
     color: #725C44;
 }
 .htext a{
@@ -89,8 +82,8 @@ header ul li:hover ul{
 header ul li ul li:hover{
     background-color: #725C44;
 }
-header ul li ul li a:hover{
-    color: white;
+.hcolor:hover{
+    color: #FFFFFFE5;
 }
 header ul li ul li{
     width: 100%;
@@ -99,6 +92,24 @@ header ul li ul li{
 }
 header ul{
     list-style: none;
+}
+#special{
+    color: #9F7B50;
+}
+#road a{
+    color: black;
+}
+#road{
+    margin: 30px 0 0 200px;
+    font-family: Roboto;
+}
+.gap{
+    margin: 0 5px 0 5px;
+}
+#main{
+    margin: 0 0 0 200px;
+    width: 1216px;
+    height: 2100px;
 }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -258,7 +269,7 @@ footer {
     color: white;
     font-size: 16px;
     line-height: 19.2px;
-}
+} 
 
 .agreement {
     margin-right: 15px;
@@ -298,70 +309,62 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.build{
-    color: #9F7B50;
-}
-.in a{
-    color: black;
-}
-.in{
-    margin: 30px 0 0 200px;
-}
-.gap{
-    margin: 0 5px 0 5px;
-}
-.dib{
+#aside{
     position: absolute;
     width: 340px;
-    height: 1999px;
+    height: 2129px;
     top: 127px;
     left: 1078px;    
     background-color: #F9F9F9;
+    font-family: Roboto;
 }
-.dib img{
+#aside img{
     width: 190px;
     height: 116.78px;
     margin: 20px 0 0 75px;
 }
-.os1{
-    margin-left: 50px;
+#os1{
+    margin-left: 33px;
 }
-.os2{
-    margin-left: 50px;
+#os2{
+    margin-left: 40px;
 }
-.os3{
-    margin-left: 55px;
+#os3{
+    margin-left: 41px;
 }
-.os4{
+#os4{
     margin-left: 112px;
 }
-.os5{
+#os5{
     margin-left: 117px;
 }
-.main{
-    margin: 36px 0 0 200px;
-    width: 823px;
-    height: 1940px;
-}
-.main img{
+#main img{
     width: 823px;
     height: 432px;
+    margin: 36px 0 0 0;
 }
 .text{
     margin: 35px 0 0 0;
-    /* font-family: sans-serif; */
     color: #353333E5;
+    font-family: Roboto;
+    width: 726px;
+}
+.fat{
+    font-family: RobotoM;
 }
 .textup{
     margin: 25px 0 0 0;
 }
-.main ul li{
+#main ul li{
     list-style: none;
-    margin: 7px 0 0 0;
+    margin: 15px 0 0 0;
     display: flex;
     align-items: center;
+    font-family: RobotoM;
+    width: 800px;
+    color: #353333E5;
 }
-.main ul{
+#main ul{
     margin: 30px 0 0 0;
 }
 .elipse{
@@ -369,13 +372,17 @@ footer {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    margin: 0 6px 0 0;
+    margin: 0 7px 0 7px;
 }
 h1{
-    font-family: sans-serif;
+    font-family: Noto SerifM;
     font-size: 38px;
     font-weight: 500;
     line-height: 33.9px;
     text-align: left;
     margin: 70px 0 0 0;
+}
+#main ul .nofat{
+    font-family: Roboto;
+    width: 800px;
 }
