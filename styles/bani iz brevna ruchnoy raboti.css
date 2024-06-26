@@ -108,7 +108,7 @@ header ul{
 #main{
     margin: 0 0 0 200px;
     width: 1216px;
-    height: 500px;
+    height: 600px;
 }
 #h1{
     margin: 50px 0 65px 0;
@@ -153,7 +153,7 @@ header ul{
 #aside{
     position: absolute;
     width: 340px;
-    height: 1590px;
+    height: 1690px;
     top: 127px;
     left: 1078px;    
     background-color: #F9F9F9;
@@ -364,7 +364,7 @@ footer {
     height: 42.14px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .totopDIV2:hover {
@@ -378,22 +378,15 @@ footer {
     align-items: center;
 }
 .text{
-    float: left;
-    color: #353333E5;
-    margin: 0 0 25px 0;
     width: 741px;
-    font-family: Roboto;
-}
-.texta{
-    float: left;
     color: #353333E5;
-    margin: 0 0 7px 0;
-    width: 741px;
+    line-height: 22.4px;
     font-family: Roboto;
+    margin: 25px 0 0 0;
 }
-.tt{
-    margin: 0 0 100px 0;
-}
-.doma{
-    color: #EC8321;
+h2{
+    font-family: Noto Serif;
+    font-size: 38px;
+    line-height: 45.6px;
+    margin: 50px 0 35px 0;
 }

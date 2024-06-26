@@ -108,7 +108,7 @@ header ul{
 #main{
     margin: 0 0 0 200px;
     width: 1216px;
-    height: 500px;
+    height: 3200px;
 }
 #h1{
     margin: 50px 0 65px 0;
@@ -116,44 +116,11 @@ header ul{
     font-size: 42px;
     font-weight: 500;
     line-height: 37.46px;
-    width: 800px;
-}
-#preimushestvaa{
-    margin: 170px 0 80px 200px;
-    font-size: 38px;
-    font-weight: 500;
-    line-height: 45.6px;
-    width: 885px;
-    height: 92px; 
-    font-family: Noto SerifM;
-}
-#preimushestva{
-    display: grid;
-    width: 1100px;
-    height: 500px;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 80px 0 170px 0;
-    font-family: Roboto;
-    padding: 0 250px 0 200px;
-}
-.pb{
-    font-size: 27px;
-    line-height: 33.6px;
-}
-.pv{
-    width: 270px;
-    line-height: 22.4px;
-    margin-top: 25px;
-    color: #353333E5;
-}
-.px{
-    width: 310px;
-    margin: 0 150px 0 0;
 }
 #aside{
     position: absolute;
     width: 340px;
-    height: 1590px;
+    height: 3279px;
     top: 127px;
     left: 1078px;    
     background-color: #F9F9F9;
@@ -178,6 +145,60 @@ header ul{
 }
 #os5{
     margin-left: 117px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFE55ED9;
+    width: 651px;
+    height: 340px;
+    margin: 100px 0 0 0;
+}
+.form h1{
+    margin: 23px 287px 0 47px;
+    width: 317px;
+    height: 46px;
+    font-family: Noto SerifM;
+    font-size: 38px;
+    line-height: 45.6px;
+    text-align: left;
+    color: #353333;
+}
+.form h3{
+    margin: 11px 131px 0 47px;
+    width: 573px;
+    height: 22px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21.6px;
+    text-align: left;
+    color: #353333E5;
+}
+.form input{
+    margin: 37px 47px 0 47px;
+    width: 555px;
+    background-color: #ffe779;
+    font-family: Roboto;
+    font-size: 16px;
+    border: none;
+    line-height: 19.2px;
+    text-align: left;
+    color: #353333B2;
+    border-bottom: 1px solid #C0BABA;
+    padding-bottom: 15px;
+}
+.form button{
+    margin: 47px;
+    width: 557px;
+    height: 53px;
+    background-color: #353333;
+    font-family: RobotoM;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: left;
+    color: #FFFFFFE5;
+    text-align: center;
 }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -355,7 +376,7 @@ footer {
 .totopDIV2{
     width: 42.14px;
     height: 42.14px;
-    background-color: yellow;
+    background-color: yellow; 
     border-radius: 50%;
 }
 
@@ -377,23 +398,42 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 41px;
+    width: 850px;
+    margin: 0 0 70px 0;
+    font-family: RobotoM;
+    font-size: 22px;
+    line-height: 30.8px;
+}
+.photos img{
+    width: 247px;
+    height: 181px;
+}
 .text{
-    float: left;
-    color: #353333E5;
-    margin: 0 0 25px 0;
-    width: 741px;
     font-family: Roboto;
+    line-height: 22.4px;
+    margin: 15px 0 0 0;
+    width: 726px;
 }
-.texta{
-    float: left;
+#main ul li{ 
+    list-style: none;
+    margin: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    font-family: RobotoM;
+    width: 800px;
     color: #353333E5;
-    margin: 0 0 7px 0;
-    width: 741px;
-    font-family: Roboto;
 }
-.tt{
-    margin: 0 0 100px 0;
+#main ul{
+    margin: 30px 0 0 0;
 }
-.doma{
-    color: #EC8321;
+.elipse{
+    background-color: #9F7B50;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 7px 0 7px;
 }
