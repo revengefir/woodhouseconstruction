@@ -305,23 +305,47 @@ header ul{
     width: 278px;
     height: 200px;
     margin-top: 100px;
-    margin-left: -100px;
+    margin-left: -190px;
     gap: 0px;
     opacity: 0px;
 }
 .Mansarda img{
-    width: 378px;
+    width: 350px;
     height: 300px; 
 }
 .Banya{
     width: 278px;
     height: 200px;
     margin-top: -200px;
-    margin-left: 350px;
+    margin-left: 170px;
     gap: 0px;
     opacity: 0px;
 }
 .Banya img{
-    width: 378px;
+    width: 350px;
     height: 300px; 
+}
+.FloorDom2{
+    width: 278px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 530px;
+    gap: 0px;
+    opacity: 0px;
+}
+.FloorDom2 img{
+    width: 350px;
+    height: 300px; 
+}
+.DomSmansardoi2{
+    width: 278px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 890px;
+    gap: 0px;
+    opacity: 0px;
+}
+.DomSmansardoi2 img{
+    width: 350px;
+    height: 300px;  
 }
