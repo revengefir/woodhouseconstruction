@@ -411,5 +411,21 @@ header ul{
     margin-top: -250px;
 }
 .questions{
-    
+    width: 1600px;
+    height: 603px;
+    top: 3174px;
+    gap: 0px;
+    opacity: 0px;
+    background-color:#F9F9F9;
 }
+.questions h1{
+    font-family: "Noto" sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    text-align: left;
+}
+.questions form{
+
+}
+   
