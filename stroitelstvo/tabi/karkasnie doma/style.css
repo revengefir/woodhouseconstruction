@@ -102,3 +102,7 @@ aside div {
     justify-content: center;
     margin-bottom: 35px;
 }
+.main_content a:active, .main_content a:hover, .main_content a{
+text-decoration: none;
+color: #353333;
+}
