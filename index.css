@@ -421,18 +421,81 @@ header ul{
     font-weight: 500;
     line-height: 43.2px;
     text-align: left;
-    margin-top: -300px;
+    margin-top: -575px;
+    width: 485px;
 }
 .questions form{
-    margin-left: 75px;
-    margin-top: -500px;
+    margin-top: 100px;
 }
 .questions img{
     width: 585px;
     height: 603px;
     top: 3174px;
-    margin-left: 1000px;
+    margin-left: 830px;
     gap: 0px;
     opacity: 0px;
 }
-   
+.btn{
+    width: 344px;
+    height: 53px;
+    margin-top: 70px;
+    margin-left: 175px;
+    gap: 0px;
+    opacity: 0px;
+    background-color:#353333;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: center;
+}
+.questions input{
+    margin-left: 175px;
+    width: 408px;
+    height: 46px;
+    top: 3389px;
+    left: 200px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.Name{
+    margin-left: 175px;
+}
+.Check{
+    margin-top: 50px;
+    size: 50px;
+}
+.advantages h1{
+    font-family: "Noto" sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45.6px;
+    text-align: center;
+    width: 798px;
+    height: 92px;
+    top: 3947px;
+    margin-left: 413px;
+    gap: 0px;
+    opacity: 0px;
+}
+.advantages h3{
+    font-family: "Roboto" sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+}
+.Dom300 p{
+    width: 248px;
+    height: 88px;
+    top: 4222px;
+    margin-left: 125px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+}
+.Dom300 h3{
+    margin-left: -1000px;
+}
