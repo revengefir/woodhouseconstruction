@@ -1,0 +1,287 @@
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.way {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19.2px;
+    color:#353333E5;
+    display: flex;    
+    margin-bottom: 47px;
+}
+
+.way a {
+    color: #353333;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: none;
+    border-bottom: 1px solid #353333;
+    padding-bottom: 3px;
+}
+
+.way p {
+    color: #9F7B50;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.main_content {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content p {
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: #353333E5;
+}
+
+.main_content h1 {
+    font-family: Noto Serif;
+    font-size: 42px;
+    line-height: 37.46px;
+    font-weight: 500;
+    color: #353333;
+    margin-bottom: 25px;
+}
+
+.main_content h2 {
+    font-family: Noto Serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45.6px;
+    color: #353333;
+}
+
+.main_content h3 {
+    font-size: 26px;
+    line-height: 31.2px;
+    font-weight: 400;
+    width: 629px;
+    margin-bottom: 35px;
+}
+
+.offers {
+    margin-top: 50px;
+    width: 823px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.offer {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer h4 {
+    font-size: 22px;
+    line-height: 30.8px;
+    font-weight: 500;
+    color: #353333;
+}
+
+.offer p {
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #353333;
+}
+
+.firstOffer, .secondOffer {
+    width: 247px;
+    height: 51px;
+    border: 1px solid #353333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstOffer {
+    margin-bottom: 5px;
+}
+
+.offer img {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.price {
+    margin-bottom: 50px;
+}
+
+.features {
+    margin-bottom: 100px;
+}
+
+.features h2 {
+    margin-bottom: 19px;
+}
+
+.featuresList {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.featuresList p{
+    margin-top: 12px;    
+}
+
+.pluses {
+    margin-bottom: 50px;
+    width: 741px;
+}
+
+.minuses {
+    width: 741px;
+}
+
+.priceFormMaker {
+    width: 773px;
+}
+
+.priceFormMaker h2 {
+    margin-bottom: 35px;
+}
+
+.priceFormMaker p {
+    margin-bottom: 15px;
+}
+
+.buy {
+    margin-top: 85px;
+    margin-bottom: 70px;
+    width: 751px;
+}
+
+.buy h2 {
+    width: 440px;
+    margin-bottom: 25px;
+}
+
+.bonusList {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bonusList p img {
+    margin-right: 6px;
+}
+
+.bonusList p {
+    margin-bottom: 7px;
+}
+
+.leaveRequest {
+    width: 651px;
+    height: 340px;
+    background-color: #ffe779;
+    margin-bottom: 170px;
+}
+
+.leaveRequest h2 {
+    margin-top: 27px;
+    margin-bottom: 17px;
+    font-weight: 500;
+    margin-left: 46px;
+}
+
+.leaveRequest p {
+    margin-bottom: 56px;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-left: 47px;
+}
+
+.leaveRequest form {
+    margin-left: 47px;
+    margin-right: 47px;
+    display: flex;
+    flex-direction: column;
+    width: 557px;
+}
+
+.btn{
+    width: 557px;
+    height: 53px;
+    background-color: #353333;
+    color: #FFFFFFE5;
+    border: none;
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.getNumber::placeholder {
+    color: #353333B2;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-family: Roboto;
+    font-weight: 400;
+    background-color: #ffe779;
+}
+
+.getNumber {
+    border: none;
+    border-bottom: 1px solid #C0BABA;
+    background-color: #ffe779;
+    width: 555px;
+    height: 31px;
+}
+
+
+
+aside {
+    width: 340px;
+    height: 1297px;
+    margin-right: 200px;
+    margin-top: 61px;
+    background-color: #F9F9F9;
+}
+
+aside div p{
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #353333;
+    margin: 0 auto;
+    margin-top: 12.22px;
+    font-weight: 500;
+}
+
+aside div img {
+    width: 190px;
+    height: 116.78px;
+    margin: 0px 75px;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+}

@@ -4,249 +4,732 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/designing.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <style>
-        #designig{
-            width: 366px;
-            height: 37px;
-            top: 209px;
-            left: 199px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Noto Serif;
-            font-size: 42px;
-            font-weight: 500;
-            line-height: 37.46px;
-            text-align: left;
-        }
-        aside{
-            width: 340px;
-            height: 2144px;
-            top: 127px;
-            left: 1060px;
-            gap: 0px;
-            opacity: 0px;
-            background: #F9F9F9;
-        }
-        #woodhousesicon{
-            width: 190px;
-            height: 116.78px;
-            top: 168px;
-            left: 1135px;
-            gap: 0px;
-            opacity: 0px;
-        }
-        #woodhouses{
-            width: 273px;
-            height: 19px;
-            top: 297px;
-            left: 1093px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Roboto;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 19.2px;
-            text-align: left;
-            color: #353333;
-        }
-        #timberhouseicon{
-            width: 190px;
-            height: 126.99px;
-            top: 351px;
-            left: 1135px;
-            gap: 0px;
-            opacity: 0px;
-        }
-        #timberhouse{
-            width: 260px;
-            height: 19px;
-            top: 490px;
-            left: 1100px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Roboto;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 19.2px;
-            text-align: left;
-            color: #353333;
-        }
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        header{
-            display: flex;
-            gap: 40px;
-        }
-        .logo{
-            width: 107px;
-            height: 107px;
-            margin-left: 186px;
-        }
-        .numbers{
-            font-size: 22px;
-        }
-        .telephon{
-            width: 20px;
-            height: 21px;
-            margin-top: 40px;
-            margin-left: 80px;
-        }
-        .htext{
-            margin-top: 45px;
-            font-size: 18px;
-            height: 25px;
-        }
-        .lineh{
-            position: absolute;
-            width: 1060px;
-            height: 0px;
-            top: 110px;
-            left: 200px;
-            background-color: #3533334D;
-            border: 1px solid #3533334D
-        }
-        .elipseh{
-            position: absolute;
-            width: 3px;
-            height: 3px;
-            top: 56px;
-            background-color: black;
-        }
-        .elipseh1{
-            left: 950px;
-        }
-        .elipseh2{
-            left: 955px;
-        }
-        .elipseh3{
-            left: 960px;
-        }
-        .list{
-            list-style: none;
-            margin-top: 48px;
-        }
-        header ul li a{
-            text-decoration: none;
-            color: black;
-        }
-        header ul li a:hover{
-            color: #725C44;
-        }
-        header ul li ul{
-            position: absolute;
-            box-shadow: -3px 3px 10px 0px #1D1B1B24;
-            border: 1px solid #3533331A;
-            opacity:0;
-            visibility: hidden;
-            transition: 0.5s;
-            width: 260px;
-            height: 241px;
-        }
-        header ul li:hover ul{
-            opacity:1;
-            visibility:visible;
-        }
-        .htext a:hover{
-            color: #725C44;
-        }
-        .htext a{
-            text-decoration: none;
-            color: black;
-        }
-        header ul li ul li:hover{
-            background-color: #725C44;
-        }
-        header ul li ul li a:hover{
-            color: white;
-        }
-        header ul li ul li{
-            width: 100%;
-            height: 20%;
-            padding: 10px;
-        }
-        header ul{
-            list-style: none;
-        }
-        .titles{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            font-family: Noto Serif;
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 21.6px;
-            text-align: left;
-        }
-        .razbrevnovka_razbrusovka{
-            width: 251px;
-            height: 22px;
-            top: 316px;
-            left: 199px;
-            gap: 0px;
-            opacity: 0px;
-            border-bottom: 1px solid #353333;
-            text-decoration: none;
-            color: #353333;
-        }
-        .AC_section{
-            width: 91px;
-            height: 22px;
-            top: 316px;
-            left: 475px;
-            gap: 0px;
-            opacity: 0px;
-            color: #35333399;
-        }
-        .KR_section{
-            width: 91px;
-            height: 22px;
-            top: 316px;
-            left: 591px;
-            gap: 0px;
-            opacity: 0px;
-            color: #35333399;
-        }
-        .frame_structures{
-            width: 222px;
-            height: 22px;
-            top: 316px;
-            left: 707px;
-            gap: 0px;
-            opacity: 0px;
-            color: #35333399;
-        }
-        th{
-            width: 189px;
-            height: 19px;
-            top: 412px;
-            left: 305px;
-            gap: 0px;
-            opacity: 0px;
+<style>
+    *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+    display: flex;
+    gap: 68px;
+}
+.logo{
+    width: 107px;
+    height: 107px;
+    margin-left: 186px;
+}
+.numbers{
+    font-size: 22px;
+}
+.telephon{
+    width: 20px;
+    height: 21px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.htext{
+    margin-top: 45px;
+    font-size: 18px;
+    height: 25px;
+}
+.lineh{
+    position: absolute;
+    width: 1216px;
+    height: 0px;
+    top: 110px;
+    left: 200px;
+    background-color: #3533334D;
+    border: 1px solid #3533334D
+}
+.elipseh{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 56px;
+    background-color: black;
+}
+.elipseh1{
+    left: 1090px;
+}
+.elipseh2{
+    left: 1095px;
+}
+.elipseh3{
+    left: 1100px;
+}
+.list{
+    list-style: none;
+    margin-top: 48px;
+}
+header ul li a{
+	text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    color: #725C44;
+}
+header ul li ul{
+    position: absolute;
+    box-shadow: -3px 3px 10px 0px #1D1B1B24;
+    border: 1px solid #3533331A;
+	opacity:0;
+	visibility: hidden;
+	transition: 0.5s;
+    width: 260px;
+    height: 241px;
+}
+header ul li:hover ul{
+    opacity:1;
+	visibility:visible;
+}
+.htext a:hover{
+    color: #725C44;
+}
+.htext a{
+    text-decoration: none;
+    color: black;
+}
+header ul li ul li:hover{
+    background-color: #725C44;
+}
+header ul li ul li a:hover{
+    color: white;
+}
+header ul li ul li{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+}
+header ul{
+    list-style: none;
+}
+.in a{
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+}
+.in{
+    margin: 30px 0 0 200px;
+}
+.build{
+    color: #9F7B50;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+}
+content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -150px 0 0 200px;
+    width: 823px;
+    height: 2222px;
+}
+.titles{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+}
+.razbrevnovka_razbrusovka{
+    width: 251px;
+    height: 22px;
+    top: 316px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #353333;
+    text-decoration: none;
+    color: #353333;
+}
+.AC_section{
+    width: 100px;
+    height: 22px;
+    top: 316px;
+    left: 475px;
+    gap: 0px;
+    opacity: 0px;
+    color: #35333399;
+}
+.KR_section{
+    width: 91px;
+    height: 22px;
+    top: 316px;
+    left: 591px;
+    gap: 0px;
+    opacity: 0px;
+    color: #35333399;
+}
+.frame_structures{
+    width: 222px;
+    height: 22px;
+    top: 316px;
+    left: 707px;
+    gap: 0px;
+    opacity: 0px;
+    color: #35333399;
+}
+.Vse_proekti{
+    display: flex;
+    flex-direction: row;
+}
+.Proekti{
+    margin-top: 50px;
+    width: 191px;
+    height: 137px;
+    top: 785px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Proekti_ban{
+    margin-right: 20px;
+}
+.title_Pb{
+    width: 121px;
+    height: 16px;
+    top: 936px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16.06px;
+    text-align: left;
+    color: #353333;
+}
+.title_Pd{
+    width: 236px;
+    height: 16px;
+    top: 936px;
+    left: 409px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16.06px;
+    text-align: left;
+    color: #353333;
+}
+th{
+    width: 189px;
+    height: 19px;
+    top: 412px;
+    left: 305px;
+    gap: 0px;
+    opacity: 0px;
 
-        }
-    </style>
+}
+#designig{
+    width: 534px;
+    height: 100px;
+    margin-top: 200px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Noto Serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50.4px;
+    text-align: left;
+    color: #353333;
+}
+.info_title_main{
+    margin-top: 50px;
+    width: 721px;
+    height: 92px;
+    top: 1052px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Noto Serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45.6px;
+    text-align: left;
+    color: #353333;
+}
+.info_title1{
+    margin-top: 50px;
+    width: 295px;
+    height: 25px;
+    top: 1194px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #353333;
+}
+.info_text1{
+    width: 741px;
+    height: 220px;
+    top: 1234px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #353333E5;
+}
+.info_title2{
+    margin-top: 70px;
+    width: 549px;
+    height: 25px;
+    top: 1489px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #353333;
+}
+.info_text2{
+    width: 741px;
+    height: 132px;
+    top: 1529px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #353333E5;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFE55ED9;
+    width: 651px;
+    height: 340px;
+    margin-bottom: 200px;
+    margin-top: 130px;
+    top: 1645px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+}
+.form h1{
+    margin-left: 47px;
+    margin-right: 287px;
+    margin-top: 23px;
+    width: 317px;
+    height: 46px;
+    top: 1672px;
+    left: 246px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Noto Serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45.6px;
+    text-align: left;
+    color: #353333;    
+}
+.form h3{
+    margin-right: 131px;
+    margin-left: 47px;
+    margin-top: 11px;
+    width: 573px;
+    height: 22px;
+    top: 1735px;
+    left: 247px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #353333E5;
+}
+.form input{
+    margin-left: 47px;
+    margin-right: 47px;
+    margin-top: 37px;
+    width: 555px;
+    top: 1844px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    border: none;
+    background-color: #ffe779;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #353333B2;
+    border-bottom: 1px solid #C0BABA;
+    padding-bottom: 15px;
+}
+.form button{
+    margin: 47px;
+    width: 557px;
+    height: 53px;
+    top: 1892px;
+    left: 247px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #353333;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #FFFFFFE5;
+    text-align: center;
+}
+aside{
+    position: absolute;
+    width: 340px;
+    height: 2101px;
+    top: 127px;
+    left: 1078px;    
+    background-color: #F9F9F9;
+}
+aside img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+.os1{
+    margin-left: 50px;
+}
+.os2{
+    margin-left: 50px;
+}
+.os3{
+    margin-left: 55px;
+}
+.os4{
+    margin-left: 112px;
+}
+.os5{
+    margin-left: 117px;
+}
+    
+.project-container {
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 327px;
+    top: 388px;
+    left: 200px;
+    gap: 0px;
+    border: 1px solid #3533334D;
+    opacity: 0px;
+}
+
+.header_ {
+    background-color: #5A4632;
+    width: 400px;
+    height: 67px;
+    top: 388px;
+    left: 200px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.header_ p{
+    display: flex;
+    justify-content: center;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.project-list li {
+    margin: 10px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.price p{
+    width: 86px;
+    height: 19px;
+    top: 679px;
+    left: 230px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #353333;
+}
+
+.price span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    width: 89px;
+    height: 19px;
+    top: 679px;
+    left: 324px;
+    gap: 0px;
+    opacity: 0px;
+    color: #725C44;
+}
+
+footer {
+    background-color: #353333;
+    width: 1600px;
+    height: 474px;
+    font-family: Roboto;
+}
+
+.footerWrapperN1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 186px;
+    margin-right: 263px;
+    padding-top: 21px;
+    height: 398px;
+    width: 1200px;
+}
+
+.footerlogo {
+    width: 107px;
+    height: 107px;
+    margin-right: 95px;
+    margin-top: 28px;
+}
+
+.houseLI, .bathLI, .footerlinksLI {
+    list-style: none;
+}
+
+.houseLI a, .bathLI a, .footerlinks, .housesUL, .bathsUL, .contacts{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.bathsUL {
+    line-height: 16.06px;
+    margin-top: 36px;
+}
+
+.houseLI a, .bathLI a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.houseLI a:hover, .bathLI a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.buildingsDIV {
+    margin-top: 66px;
+}
+
+.houseLI {
+    margin-top: 8px;
+}
+
+#housesfirst {
+    margin-top: 9px
+}
+
+.bathLI {
+    margin-top: 8px
+}
+
+#bathsfirst {
+    margin-top: 15px
+}
+
+.footerlinksDIV {
+    margin-left: 164px;
+    margin-right: 197px;
+    margin-top: 66px;
+}
+
+.footerlinksLI {
+    margin-bottom: 20px;
+}
+
+.contacts {
+    margin-top: 66px;
+}
+
+.worktimeLI {
+    list-style: none;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;    
+}
+
+.worktimeLI img {
+    margin-right: 5px;
+    height: 21px;
+    width: 21px;
+}
+
+.footernumber {
+    font-size: 22px;
+    line-height: 19.62px;
+    margin: 23px 0 26px 0;
+    width: 186px;
+}
+
+.email {
+    margin-bottom: 29px;
+}
+
+.emaillink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.emailpicture {
+    height: 15.62px;
+    width: 21.88px;
+    margin-right: 6.56px;
+}
+
+.contact_logos {
+    width: 142px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_logo:first-child a img:hover{
+    background-image: url(img/VKhoverlogo.webp);
+    background-size: cover;
+}
+
+.footerWrapperN2 {
+    height: 59px;
+    width: 1200px;
+    margin-left: 199px;
+    margin-right: 199px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 11px;
+}
+
+.footerWrapperN2 p {
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-right: 42px;
+}
+
+.lastlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.agreement {
+    margin-right: 15px;
+}
+
+.totopDIV{
+    width: 59.59px;
+    height: 59.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.totopDIV2{
+    width: 42.14px;
+    height: 42.14px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.totoplink {
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totopDIV2:hover {
+    background-color: white;
+}
+.totoplink img{
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
 </head>
 <body>
     <!--header-->
     <header>
-        <img src="https://s3-alpha-sig.figma.com/img/2a5d/ac46/0e4f5c47182f42b07f80c885fbdd4cae?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=btVaLUbFDLASMrYvQHPMlE0awOyPppii3yMY14WdvQ4a2nwYPy8ZlsFROXkPGUZwOF1feuGfNidfJMSyMOtRSmOE4tsExQa20WB094G1KfOt2WX86pp27lHG3-JZDJ0~RlXfXZxj5zsSRNizEQkIZcZLxkovz7D9rlmR~tQ91OUq4s5TJzw-qIj771DxYErx3cYUXyRP7vo4D3ytGW9dmjol8uLSOOCjqJtjWGcC876irAia~sclXmUzXnnulkgEm7mDVa6udHGmeZqcWZBjt7tSbo7jPl3nRhBTz1Fv5G5j37dwKIM6xVRxZwSEOKOhuhmD7kuHl2Qs35CfQ~aKDA__" class="logo">
+        <img src="img/logo.png" class="logo">
         <div class="htext"><a href="#">Главная</a></div>
             <ul class="list"><li><a href="#">Продукция</a>
                     <ul>
-                        <li><a href="#">цена на срубы под баню</a></li>
-                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
-                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
-                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
-                        <li><a href="#">цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#">Цена на срубы под баню</a></li>
+                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
+                        <li><a href="#">Цена на оцидиндрованное бревно</a></li>
                     </ul>
                 </li>
             </ul>
@@ -254,34 +737,140 @@
         <div class="htext"><a href="#">Проектирование</a></div>
         <div class="htext"><a href="#">Галерея</a></div>
         <div class="elipseh elipseh1"></div><div class="elipseh elipseh2"></div><div class="elipseh elipseh3"></div>
-        <div class="numbers"><img src="" class="telephon"> +7 (910) 007 77 79</div>
+        <div class="numbers"><img src="img/Telephon.png" class="telephon"> +7 (910) 007 77 79</div>
         <div class="lineh"></div>
     </header>
+    <div class="in"><a href="#" >Главная</a> <span class="gap">»</span> <span class="build">Проектирование</span></div>
+
     <!--Контент сайта-->
     <content>
-        <p id="designig">Проектирование</p>
+        <h1 id="designig">Проектирование</h1>
         <div class="titles">
             <a href="#" class="razbrevnovka_razbrusovka"><p>Разбревновка, разбрусовка</p></a>
             <p class="AC_section">Раздел АС</p>
             <p class="KR_section">Раздел КР</p>
             <p class="frame_structures">Каркасных сооружений</p>
         </div>
+
         <!--Таблица: проект сруба в составе-->
-        <table>
-            <tr><th>Проект сруба в составе</th></tr>
-            <tr>
-                <td></td>
-            </tr>
-        </table>
+        <div class="project-container">
+            <div class="header_">
+                <h1>Проект сруба в составе</h1>
+            </div>
+            <ol class="project-list">
+                <li>1. Поэтажные планы</li>
+                <li>2. Аксонометрические виды сруба</li>
+                <li>3. Разрез</li>
+                <li>4. Развертки стен</li>
+                <li>5. Спецификация стеновых элементов</li>
+                <li>6. Карта раскроя</li>
+            </ol>
+            <div class="price">
+                <p>Стоимость:</p> <span> 100 руб / м²</span>
+            </div>
+        </div>
+        
+        <!--Проекты-->
+        <div class="Vse_proekti">
+        <div class="Proekti_ban"><img class="Proekti" src="img/Rectangle 1109.png">
+        <p class="title_Pb">Проекты бань</p></div>
+        <div class="Proekti_domov"><img class="Proekti" src="img/Rectangle 1110.png" alt="">
+        <p class="title_Pd">Проекты домов</p></div>
+        </div>
+
+        <!--Информация-->
+        <h2 class="info_title_main">Услуги проектирования деревянных <br>домов</h2>
+        <h3 class="info_title1">С чего начинается строительство?</h3>
+        <p class="info_text1">
+            <br>Постройки из натуральной древесины – это тренд последнего времени. Однако, несмотря<br> 
+            на оперативность возведения, сам процесс стоит считать сложной процедурой, которая состоит<br> 
+            из таких этапов:<br>
+            – определение концепции – это основные идеи владельца, а также его размышления о том,<br> 
+            что он хочет видеть в результате;<br>
+            – все оглашенные идеи складываются в эскиз или макет;<br>
+            – на основе зафиксированных идей создается проект с расчетами, сметами и другими описаниями, которые дальше будут активно использоваться.<br>
+            Конкретно от того, насколько профессионально выполнено проектирование домов будет<br> 
+            зависеть итог работы.
+        </p>
+        <h3 class="info_title2">Зачем необходимы услуги проектирования деревянных домов?</h3>
+        <p class="info_text2">
+            <br>Проектирование деревянных домов – это шанс поручить профи-строителям подготовить<br> 
+            всю необходимую документацию. Благодаря расчету, а также строительному опыту<br> 
+            исполнителей владелец получит основу для будущей работы высокого качества.<br>
+            Заказать подготовку проекта дач, коттеджей и других видов построек Вы можете у компании<br> 
+            «Именитая изба». В разделе найдется вся необходимая информация, а также контакты<br> 
+            для обратной связи.<br>
+        </p>
+        <!--Форма для заявки-->
+        <div class="form">
+            <h1>Оставьте заявку</h1>
+            <h3>Не теряйте время! Получите бесплатную консультацию!</h3>
+            <input placeholder="Ваш номер телефона"><br>
+            <button>Отправить</button>
+        </div>
     </content>
+    
+    <!--aside-->
     <aside>
-        <img id="woodhousesicon" src="https://s3-alpha-sig.figma.com/img/d35d/7140/3a0691a84716c0dba253654bebb6c33b?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WZoJuFutO1wS1sEmsIaj9Vcj-Ud3Da468cajy43fs7DHW4DxC63VyYT8HQKFJpOvx68MagDKzMGvr~bUOCiV1GLfeBUrKQaH7G~7AHx4P9LilfI-Xa80KgKxUMwr4leHnyHyjuoQRch1JU4CfeeOuo8dYSZYLr-ZZqlSHj~MtivohflOIsnbS6pHdYlSXWAw4stgiGIxm7ByYbJpYNZlx2EKvcmck9ac8CueVK7J3OkpiA87T3p9gOtbV8MOsZVfvFwu90pjGbpbnwr-6TbGVcGC76x8cp-CkZMH7ED75W~tfz-ZU6ieIqcfKcb9Wm6ImG3fAYEl3adjptuumD5Bjw__" alt="">
-        <p id="woodhouses">Дома из оцилиндрованного бревна</p>
-        <img id="timberhouseicon" src="https://s3-alpha-sig.figma.com/img/51fd/6ba6/ecb03564d9fc29709e986baf01ab9cf4?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SpytWZEpu7gYMe1GHVSoL6rmfrxA3RTvmbzZSN~mvHiGRgs3ToefAqMQwVgtNAGeNibjIiy6TRVz5DocVwyCbaFowLW4d0itmqaCilY-Ri1VkvUnsJnfT0GTh-bQHFgIfgisU77VHci9fhYyLzIwPi9K4jDi2Fx41QQFF1fA4sQQsj1shheIRDPnPZlUoABUphf6LqZz5IwNvCk7gGBEnIkLaQZkl2A0ctWwkRv5o9LXoXWwC9EhziyAACK4NWYAvs85IIc8Oru5OVaxrZRwP5PFbSYvAEYtT3YSwSVFvw4tEQYfi~V1vb2rqAsYtbWvT2frPD1DWG9LZas8vjjhJg__" alt="">
-        <p id="timberhouse">Дома из профилированного бруса</p>
-        <img src="https://s3-alpha-sig.figma.com/img/35c2/57c9/7f490be170f20516a78157339ff517a3?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YWy8gGqNQNXkZvKJqwHz6xmdhfqqcBs-lFMpZgr5GNAYMVzdMoCP-xONryAen750r9lZhnUY9hTzQ~IVYzcPEJAlb7ph1JebzByTHewkBsCftu9a~jl7ydl~NRzFqMdgtZrvekUzR4fRXTRXCTWp4I7JEDiumS9IMh3WGDMjlKNPXVEiY9fO4edAhX20qenj6nD7-R6cz8LBB9j2TaV1xZV4dECBa7uHP1KKyoju~saUb4Mh5MZgToued9eMnjTOHN1~x89WpxwrloipcV7wS1RlQEsjr-wajAfA-wSAha4AGPJ6m6s-2pQjF1dzm9r7IfVRBPaNhDOc5zZVI0BkRQ__" alt="">
-        <p>Дома из клееного бруса под ключ</p>
+        <div><img src="img\House1.png"><br></div>
+        <div class="os1">Дома из оцилиндрованного бревна</div>
+        <div><img src="img\House2.png"><br></div>
+        <div  class="os2">Дома из профилированного бруса</div>
+        <div><img src="img\House3.png"><br></div>
+        <div  class="os3">Дома из клееного бруса под ключ</div>
+        <div><img src="img\House4.png"><br></div>
+        <div  class="os4">Бани из бревна</div>
+        <div><img src="img\House5.png"><br></div>
+        <div  class="os5">Бани из бруса</div>
     </aside>
+
     <!--footer-->
-    <footer><!--soon--></footer>
+    <footer>
+        <footer>
+            <div class="footerWrapperN1">   
+                <img class="footerlogo" src="img/logo.png" alt="">
+                <div class="buildingsDIV">
+                    <ul class="housesUL">Дома
+                        <li class="houseLI" id="housesfirst"><a href="#">из оцилиндрованного бревна</a></li>
+                        <li class="houseLI"><a href="#">из профилированного бруса</a></li>
+                        <li class="houseLI"><a href="#">из клееного бруса</a></li>
+                    </ul>
+                    <ul class="bathsUL">Бани
+                        <li class="bathLI" id="bathsfirst"><a href="#">Бани из бревна</a></li>
+                        <li class="bathLI"><a href="#">Бани из бруса</a></li>
+                    </ul>
+                </div>
+                <div class="footerlinksDIV">
+                    <ul class="footerlinksUL">
+                        <li class="footerlinksLI"><a class="footerlinks" href="#">Главная</a></li>
+                        <li class="footerlinksLI"><a class="footerlinks" href="#">Продукция</a></li>
+                        <li class="footerlinksLI"><a class="footerlinks" href="#">Строительство</a></li>
+                        <li class="footerlinksLI"><a class="footerlinks" href="#">Проектирование</a></li>
+                        <li class="footerlinksLI"><a class="footerlinks" href="#">Галерея</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">Контакты
+                    <ul class="worktimeUL">
+                        <li class="worktimeLI"><img src="img/clock.webp" alt="">Пн-Пт 9:00-18:00</li>
+                        <li class="worktimeLI"><img style="visibility: hidden;;" src="img/clock.webp" alt="">Сб-Вс выходной</li>
+                    </ul>
+                    <div class="footernumber">+7 (910) 007 77 79</div>
+                    <div class="email"><img class="emailpicture" src="img/email.webp" alt=""><a href="#" class="emaillink">izba-52@mail.ru</a></div>
+                    <div class="contact_logos">
+                        <div class="contact_logo" class="vklogo"><a href="#"><img src="img/VKlogo.webp" alt=""></a></div>
+                        <div class="contact_logo" class="youtubelogo"><a href="#"><img src="img/youtubelogo.webp" alt=""></a></div>
+                        <div class="contact_logo" class="vectorlogo"><a href="#"><img src="img/Vectorlogo.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="totopDIV"><div class="totopDIV2"><a class="totoplink" href="#top"><img src="img/Arrow.svg" alt=""></a></div></div>
+            </div>
+            <div class="footerWrapperN2">
+                <p>© 2020 Именитая изба- строительство деревянных домов и бань. <span style="color: rgba(255, 255, 255, 0.7);">Все права защищены</span></p>
+                <div class="lastlinks">
+                    <a class="agreement" href="#">Пользовательское соглашение</a>
+                    <a class="privacy" href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+            </footer>
+    </footer>
 </html>

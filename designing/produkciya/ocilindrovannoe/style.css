@@ -1,0 +1,216 @@
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.way {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19.2px;
+    color:#353333E5;
+    display: flex;    
+    margin-bottom: 47px;
+}
+
+.way a {
+    color: #353333;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: none;
+    border-bottom: 1px solid #353333;
+    padding-bottom: 3px;
+}
+
+.way p {
+    color: #9F7B50;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.main_content {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content h1 {
+    font-family: Noto Serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 37.46px;
+    color: #353333;
+}
+
+.offers h2 {
+    font-family: Noto Serif;
+    font-size: 38px;
+    line-height: 45.6px;
+    color: #353333;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.offers p {
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: #353333E5;
+    width: 741px;
+}
+
+.ourOffers {
+    margin-top: 25px;
+}
+
+.offers {
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+.images {
+    margin-top: 70px;
+    width: 823px;
+    height: 181px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.images img {
+    width: 247px;
+    height: 181px;
+}
+
+.table img {
+    margin-bottom: 50px;
+    box-shadow: -4px 6px 8px #35333333;
+}
+
+.table2 table {
+    width: 823px;
+
+}
+
+.table2 td {
+    border-bottom: 1px solid #3533334D;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #353333E5;
+}
+
+.leaveRequest {
+    width: 651px;
+    height: 340px;
+    background-color: #ffe779;
+    margin-bottom: 170px;
+}
+
+.leaveRequest h2 {
+    margin-top: 27px;
+    margin-bottom: 17px;
+    font-family: Noto Serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 45.6px;
+    color: #353333;
+    margin-left: 46px;
+}
+
+.leaveRequest p {
+    margin-bottom: 56px;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #353333E5;
+    margin-left: 47px;
+}
+
+.leaveRequest form {
+    margin-left: 47px;
+    margin-right: 47px;
+    display: flex;
+    flex-direction: column;
+    width: 557px;
+}
+
+.btn{
+    width: 557px;
+    height: 53px;
+    background-color: #353333;
+    color: #FFFFFFE5;
+    border: none;
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.getNumber::placeholder {
+    color: #353333B2;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-family: Roboto;
+    font-weight: 400;
+    background-color: #ffe779;
+}
+
+.getNumber {
+    border: none;
+    border-bottom: 1px solid #C0BABA;
+    background-color: #ffe779;
+    width: 555px;
+    height: 31px;
+}
+
+
+
+aside {
+    width: 340px;
+    height: 1297px;
+    margin-right: 200px;
+    margin-top: 61px;
+    background-color: #F9F9F9;
+}
+
+aside div p{
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #353333;
+    margin: 0 auto;
+    margin-top: 12.22px;
+    font-weight: 500;
+}
+
+aside div img {
+    width: 190px;
+    height: 116.78px;
+    margin: 0px 75px;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+}

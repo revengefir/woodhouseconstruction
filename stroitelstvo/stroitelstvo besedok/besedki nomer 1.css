@@ -1,0 +1,476 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.wrapper {
+    margin-right: 186px;
+    margin-left: 198px;
+    width: 1500px;
+    height: 110px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #3533334D;
+}
+
+.logo {
+    width: 107px;
+    height: 107px;
+}
+
+.mainlinksUL {
+    list-style: none;
+    display: flex;
+}
+
+.mainlinks {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 16.06px;
+    color: #353333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 40px;
+}
+
+#firstmainlink {
+    margin-left: 65px;
+}
+
+#lastmainlink {
+    margin-left: 23px;
+}
+
+.number {
+    font-size: 22px;
+    line-height: 19.62px;
+    display: flex;
+    align-items: center;
+}
+
+.number img{
+    height: 24px;
+    width: 24px;
+    margin-left: 124px;
+    margin-right: 9px;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+}
+.brdcamp{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.breadcrumb a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+    margin-right: 5px;
+}
+
+.breadcrumb a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.breadcrumb a:hover::after {
+    transform: scaleX(1);
+}
+
+.breadcrumb .current {
+    color: #a6753e;
+    margin-left: 5px;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    width: 107px;
+    height: 107px;
+    margin-left: 186px;
+}
+.title113{
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.img1{
+    width: 247px;
+    height: 181px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.div4{
+    margin-left: 200px;
+    
+    height: 120px;
+}
+.div2{
+    float: left;
+}
+.div1{
+    width: 1400px;
+}
+.price{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dib{
+    float: right;
+    margin-right: 100px;
+    background-color: rgb(238, 236, 233);
+    height: 3063px;
+    width: 340px;
+    margin-top: 0px;
+    margin-bottom: 700px;
+}
+.indib1{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.os1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    
+}
+.ahref1{
+    text-decoration: none;
+    color: black;
+}
+.indib2{
+    padding-top: 20px;
+    margin-right: 100px;
+}
+.footdiv2{
+    margin-left: 200px;
+    margin-top: 2250px;
+    width: 1200px;
+}
+.foottext1{
+    font-size: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footdiv3{
+width: 500px;
+float: inline-end;
+}
+.foottext2{
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 120px;
+    margin-right: 210px; 
+}
+.foottext3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footdiv4{
+    height: 68px;
+    width: 450px;
+}
+.footdiv9{
+margin-left: 50pxpx;
+}
+.foottext4{
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 120px;
+    margin-left: 210px; 
+}
+.footdiv5{   
+        width: 500px;
+        float: inline-start;
+       
+}
+.footdiv6{
+    height: 68px;
+    width: 450px;
+    margin-left: 210px;
+}
+.foottext5{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footdiv7{
+    
+    width: 1500px;
+    height: 390px;
+   
+    margin-top: 420px;
+}
+.footdiv4{
+    width: 390px;
+}
+ul{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    background-color: #353333;
+    width: 1600px;
+    height: 474px;
+}
+
+.footerWrapperN1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 186px;
+    margin-right: 263px;
+    padding-top: 21px;
+    height: 398px;
+    width: 1200px;
+}
+
+.footerlogo {
+    width: 107px;
+    height: 107px;
+    margin-right: 95px;
+    margin-top: 28px;
+}
+
+.houseLI, .bathLI, .footerlinksLI {
+    list-style: none;
+}
+
+.houseLI a, .bathLI a, .footerlinks, .housesUL, .bathsUL, .contacts{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.bathsUL {
+    line-height: 16.06px;
+    margin-top: 36px;
+}
+
+.houseLI a, .bathLI a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.houseLI a:hover, .bathLI a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.buildingsDIV {
+    margin-top: 66px;
+}
+
+.houseLI {
+    margin-top: 8px;
+}
+
+#housesfirst {
+    margin-top: 9px
+}
+
+.bathLI {
+    margin-top: 8px
+}
+
+#bathsfirst {
+    margin-top: 15px
+}
+
+.footerlinksDIV {
+    margin-left: 164px;
+    margin-right: 197px;
+    margin-top: 66px;
+}
+
+.footerlinksLI {
+    margin-bottom: 20px;
+}
+
+.contacts {
+    margin-top: 66px;
+}
+
+.worktimeLI {
+    list-style: none;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;    
+}
+
+.worktimeLI img {
+    margin-right: 5px;
+    height: 21px;
+    width: 21px;
+}
+
+.footernumber {
+    font-size: 22px;
+    line-height: 19.62px;
+    margin: 23px 0 26px 0;
+    width: 186px;
+}
+
+.email {
+    margin-bottom: 29px;
+}
+
+.emaillink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.emailpicture {
+    height: 15.62px;
+    width: 21.88px;
+    margin-right: 6.56px;
+}
+
+.contact_logos {
+    width: 142px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_logo:first-child a img:hover{
+    background-image: url(../img/VKhoverlogo.webp);
+    background-size: cover;
+}
+
+.footerWrapperN2 {
+    height: 59px;
+    width: 1200px;
+    margin-left: 199px;
+    margin-right: 199px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 11px;
+}
+
+.footerWrapperN2 p {
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-right: 42px;
+}
+
+.lastlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.agreement {
+    margin-right: 15px;
+}
+
+.totopDIV{
+    width: 59.59px;
+    height: 59.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.totopDIV2{
+    width: 42.14px;
+    height: 42.14px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.totoplink {
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totopDIV2:hover {
+    background-color: white;
+}
+.totoplink img{
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dib{
+    position: absolute;
+    width: 340px;
+    height: 3000px;
+    top: 127px;
+    left: 1078px;   
+    margin-left: 400px; 
+    background-color: #F9F9F9;
+}
+.dib img{
+    width: 190px;
+    height: 116.78px;
+    margin: 20px 0 0 75px;
+}
+.os1{
+    margin-left: 50px;
+}
+.os2{
+    margin-left: 50px;
+}
+.os3{
+    margin-left: 55px;
+}
+.os4{
+    margin-left: 112px;
+}
+.os5{
+    margin-left: 117px;
+}

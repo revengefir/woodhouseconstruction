@@ -1,0 +1,513 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.wrapper {
+    margin-right: 186px;
+    margin-left: 198px;
+    width: 1500px;
+    height: 110px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #3533334D;
+}
+
+.logo {
+    width: 107px;
+    height: 107px;
+}
+
+.mainlinksUL {
+    list-style: none;
+    display: flex;
+}
+
+.mainlinks {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 16.06px;
+    color: #353333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 40px;
+}
+
+#firstmainlink {
+    margin-left: 65px;
+}
+
+#lastmainlink {
+    margin-left: 23px;
+}
+
+.number {
+    font-size: 22px;
+    line-height: 19.62px;
+    display: flex;
+    align-items: center;
+}
+
+.number img{
+    height: 24px;
+    width: 24px;
+    margin-left: 124px;
+    margin-right: 9px;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+}
+.brdcamp{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.breadcrumb {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.breadcrumb li {
+    position: relative;
+    margin-right: 5px;
+}
+.breadcrumb li:not(:last-child)::after {
+    content: '›';
+    margin-left: 5px;
+}
+.breadcrumb li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+.breadcrumb li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.breadcrumb li a:hover::after {
+    transform: scaleX(1);
+}
+.breadcrumb li:last-child {
+    color: #A67C52;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+    display: flex;
+    gap: 20px;
+}
+.div1{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.text1{
+    font-size: 50px;
+}
+.fotodiv1{
+    height: 200px;
+    display: flex;
+    width: 1000px;
+}
+.foto1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.foto2{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.container {
+    width: 55%;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 660PX;
+    margin-left: 210PX;
+    margin-top: 90PX;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 120PX;
+}
+
+thead {
+    background-color: #5D4630;
+    color: white;
+    height: 70px;
+}
+
+thead th {
+    padding: 10px;
+    font-weight: normal;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tbody td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+    padding-bottom: 40px;
+}
+
+.back-link {
+    padding: 10px;
+    margin-left: 210px;
+
+}
+
+.back-link a {
+    text-decoration: none;
+    color: #5D4630;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+.ahref1{
+    text-decoration: none;
+    color: black;
+}
+.indib2{
+    padding-top: 20px;
+    margin-right: 100px;
+}
+.dib{
+    position: absolute;
+    width: 340px;
+    height: 3000px;
+    top: 127px;
+    left: 1078px;   
+    margin-left: 400px; 
+    background-color: #F9F9F9;
+}
+.indib1{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.os1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFE55ED9;
+    width: 651px;
+    height: 340px;
+    top: 1645px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+.form h1{
+    margin-left: 47px;
+    margin-right: 287px;
+    margin-top: 23px;
+    width: 317px;
+    height: 46px;
+    top: 1672px;
+    left: 246px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Noto Serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45.6px;
+    text-align: left;
+    color: #353333;
+}
+.form h3{
+    margin-right: 131px;
+    margin-left: 47px;
+    margin-top: 11px;
+    width: 573px;
+    height: 22px;
+    top: 1735px;
+    left: 247px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #353333E5;
+}
+.form input{
+    margin-left: 47px;
+    margin-right: 47px;
+    margin-top: 37px;
+    width: 555px;
+    top: 1844px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    border: none;
+    background-color: #ffe779;
+    font-family: Roboto;
+    font-size: 16px;
+    opacity: 0px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #353333B2;
+    border-bottom: 1px solid #C0BABA;
+    padding-bottom: 15px;
+}
+.form button{
+    margin: 47px;
+    width: 557px;
+    height: 53px;
+    top: 1892px;
+    left: 247px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #353333;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #FFFFFFE5;
+    text-align: center;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    background-color: #353333;
+    width: 1600px;
+    height: 474px;
+    margin-top: 516px;
+}
+
+.footerWrapperN1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 186px;
+    margin-right: 263px;
+    padding-top: 21px;
+    height: 398px;
+    width: 1200px;
+}
+
+.footerlogo {
+    width: 107px;
+    height: 107px;
+    margin-right: 95px;
+    margin-top: 28px;
+}
+
+.houseLI, .bathLI, .footerlinksLI {
+    list-style: none;
+}
+
+.houseLI a, .bathLI a, .footerlinks, .housesUL, .bathsUL, .contacts{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.bathsUL {
+    line-height: 16.06px;
+    margin-top: 36px;
+}
+
+.houseLI a, .bathLI a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.houseLI a:hover, .bathLI a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.buildingsDIV {
+    margin-top: 66px;
+}
+
+.houseLI {
+    margin-top: 8px;
+}
+
+#housesfirst {
+    margin-top: 9px
+}
+
+.bathLI {
+    margin-top: 8px
+}
+
+#bathsfirst {
+    margin-top: 15px
+}
+
+.footerlinksDIV {
+    margin-left: 164px;
+    margin-right: 197px;
+    margin-top: 66px;
+}
+
+.footerlinksLI {
+    margin-bottom: 20px;
+}
+
+.contacts {
+    margin-top: 66px;
+}
+
+.worktimeLI {
+    list-style: none;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;    
+}
+
+.worktimeLI img {
+    margin-right: 5px;
+    height: 21px;
+    width: 21px;
+}
+
+.footernumber {
+    font-size: 22px;
+    line-height: 19.62px;
+    margin: 23px 0 26px 0;
+    width: 186px;
+}
+
+.email {
+    margin-bottom: 29px;
+}
+
+.emaillink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.emailpicture {
+    height: 15.62px;
+    width: 21.88px;
+    margin-right: 6.56px;
+}
+
+.contact_logos {
+    width: 142px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_logo:first-child a img:hover{
+    background-image: url(../img/VKhoverlogo.webp);
+    background-size: cover;
+}
+
+.footerWrapperN2 {
+    height: 59px;
+    width: 1200px;
+    margin-left: 199px;
+    margin-right: 199px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 11px;
+}
+
+.footerWrapperN2 p {
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-right: 42px;
+}
+
+.lastlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.agreement {
+    margin-right: 15px;
+}
+
+.totopDIV{
+    width: 59.59px;
+    height: 59.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.totopDIV2{
+    width: 42.14px;
+    height: 42.14px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.totoplink {
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totopDIV2:hover {
+    background-color: white;
+}
+.totoplink img{
+    width: 42.14px;
+    height: 42.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
