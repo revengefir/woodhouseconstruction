@@ -487,6 +487,13 @@ header ul{
     line-height: 33.6px;
     text-align: center;
 }
+.advantages p{
+    font-family: "Roboto" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+}
 .Dom300 p{
     width: 248px;
     height: 88px;
@@ -495,7 +502,211 @@ header ul{
     gap: 0px;
     opacity: 0px;
     text-align: center;
+    font-family: "Roboto" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
 }
 .Dom300 h3{
     margin-left: -1000px;
+}
+.Dom300{
+    margin-top: 75px;
+}
+.Team{
+    margin-top: -125px;
+    margin-left: -150px;
+}
+.Team h3{
+    margin-left: -175px;
+}
+.Team p{
+    width: 248px;
+    height: 66px;
+    top: 4222px;
+    margin-left: 620px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+}
+.prices h3{
+    width: 130px;
+    height: 68px;
+    margin-top: -135px;
+    margin-left: 889px;
+    gap: 0px;
+    opacity: 0px;
+}
+.prices p{
+    font-family:"Roboto" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    width: 259px;
+    height: 66px;
+    top: 4222px;
+    margin-left: 824px;
+    gap: 0px;
+    opacity: 0px;
+}
+.individual{
+    margin-top: -125px;
+    margin-left: 500px;
+}
+.individual h3{
+    width: 226px;
+    height: 68px;
+    top: 4129px;
+    margin-left: 700px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto" sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+}
+.individual p{
+    width: 259px;
+    height: 66px;
+    top: 4222px;
+    margin-left: 675px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Feedback{
+    background-color: #353333;
+    width: 1600px;
+    height: 713px;
+    margin-top: 100px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+}
+.Feedback h1{
+    width: 731px;
+    height: 34px;
+    top: 4593px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Noto" sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 33.9px;
+    text-align: left;
+
+}
+.Feedback h4{
+    width: 381px;
+    height: 44px;
+    top: 4967px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Feedback p{
+    width: 347px;
+    height: 66px;
+    top: 4995px;
+    left: 611px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Mansarda{
+    margin-left: 100px;
+}
+.Mansarda img{
+    width: 380px;
+    height: 220px;
+    top: 4717px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Mansarda2{
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.Mansarda2 img{
+    width: 380px;
+    height: 220px;
+    top: 4717px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Mansarda3 img{
+    width: 380px;
+    height: 220px;
+    top: 4717px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Mansarda3{
+    margin-left: 1050px;
+    margin-top: -340px;
+}
+.Goods a{
+    text-decoration: none;
+    color:#353333;
+    width: 92px;
+    height: 40px;
+    top: 5713.99px;
+    left: 765.09px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Goods{
+    width: 1600px;
+    height: 563px;
+    top: 5304px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #F9F9F9;
+}
+.Goods h1{
+    width: 334px;
+    height: 34px;
+    top: 5404px;
+    left: 198px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Noto" sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 33.9px;
+    text-align: left;
+
+}
+.Goods p{
+    width: 1200px;
+    height: 132px;
+    top: 5508px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 100px;
+    margin-top: 75px;
+    font-family: "Roboto" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+
+}
+.Circle{
+    width: 144px;
+    height: 144px;
+    color: #353333;
+    text-decoration: none;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 50%; 
+    background-color: #FFE11D;
+    margin-left: 700px;
+    rotate: -18.35deg;
 }
