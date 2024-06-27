@@ -257,9 +257,6 @@ header ul{
     align-items: center;
     z-index: 1;
 }
-
-
-
 .white2{
     width: 496px;
     background-color: #fff;
@@ -424,8 +421,18 @@ header ul{
     font-weight: 500;
     line-height: 43.2px;
     text-align: left;
+    margin-top: -300px;
 }
 .questions form{
-
+    margin-left: 75px;
+    margin-top: -500px;
+}
+.questions img{
+    width: 585px;
+    height: 603px;
+    top: 3174px;
+    margin-left: 1000px;
+    gap: 0px;
+    opacity: 0px;
 }
    
