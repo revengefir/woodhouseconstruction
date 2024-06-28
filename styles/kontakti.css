@@ -344,6 +344,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.footernumber{
+    color: white;
+}
 button{
     width: 214px;
     height: 53px;
@@ -434,3 +437,96 @@ td{
     font-family: RobotoM;
     color: #353333;
 }
+/* @media (max-width:1000px){
+    header{
+        gap: 16px;
+    }
+    #logo{
+        margin: 0 0 0 12px;
+    }
+    #lineh{
+        width: 960px;
+        left: 20px;
+    }
+    #telephon{
+        margin: 41px 0 0 60px;
+    }
+    .elipseh1{
+        left: 719px;
+    }
+    .elipseh2{
+        left: 726px;
+    }
+    .elipseh3{
+        left: 733px;
+    }
+    #main{
+        margin: 0 0 0 20px;
+        height: 2100px;
+        width: 700px;
+        display: grid;
+	    grid-template-areas: "d1 d1" "d10 d10" "d2 d3" "d4 d6" "d5 d7" "d9 d9" "d8 d8";
+    }
+    #road{
+        margin: 20px 0 0 20px;
+    }
+    #aside{
+        width: 226px;
+        height: 2119px;
+        top: 127px;
+        left: 754px;   
+        text-align: center; 
+    }
+    #aside img{
+        width: 140px;
+        height: 86px;
+        margin: 21px 0 0 0;
+    }
+    #os1{
+        margin-left: 28px;
+        width: 170px;
+    }
+    #os2{
+        margin-left: 19px;
+        width: 188px;
+    }
+    #os3{
+        margin-left: 49px;
+        width: 130px;
+    }
+    #os4{
+        margin-left: 62px;
+        width: 103px;
+    }
+    #os5{
+        margin-left: 78px;
+        width: 70px;
+    }
+    #main ul .nofat{
+        width: 691px;
+        height: 66px;
+    }
+    footer {
+        width: 1000px;
+        height: 451px;
+    }
+    .footerWrapperN1{
+        margin: 0 0 0 11px;
+    }
+    .footerWrapperN2{
+        margin: 0 0 0 11px;
+    }
+    .footerlinksDIV{
+        margin: 63px 98px 0 65px;
+    }
+    .p1{
+        margin: 15px 0 0 0;
+    }
+    .footerlogo{
+        margin-right: 35px;
+    }
+    .map{
+        width: 708px;
+        height: 344px;
+    }
+} */

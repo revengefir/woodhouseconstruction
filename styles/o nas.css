@@ -309,6 +309,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.footernumber{
+    color: white;
+}
 #aside{
     position: absolute;
     width: 340px;
@@ -385,4 +388,94 @@ h1{
 #main ul .nofat{
     font-family: Roboto;
     width: 800px;
+}
+@media (max-width:1000px){
+    header{
+        gap: 16px;
+    }
+    #logo{
+        margin: 0 0 0 12px;
+    }
+    #lineh{
+        width: 960px;
+        left: 20px;
+    }
+    #telephon{
+        margin: 41px 0 0 60px;
+    }
+    .elipseh1{
+        left: 719px;
+    }
+    .elipseh2{
+        left: 726px;
+    }
+    .elipseh3{
+        left: 733px;
+    }
+    #main{
+        margin: 0 0 0 20px;
+        height: 2100px;
+    }
+    #road{
+        margin: 20px 0 0 20px;
+    }
+    #aside{
+        width: 226px;
+        height: 2119px;
+        top: 127px;
+        left: 754px;   
+        text-align: center; 
+    }
+    #aside img{
+        width: 140px;
+        height: 86px;
+        margin: 21px 0 0 0;
+    }
+    #os1{
+        margin-left: 28px;
+        width: 170px;
+    }
+    #os2{
+        margin-left: 19px;
+        width: 188px;
+    }
+    #os3{
+        margin-left: 49px;
+        width: 130px;
+    }
+    #os4{
+        margin-left: 62px;
+        width: 103px;
+    }
+    #os5{
+        margin-left: 78px;
+        width: 70px;
+    }
+    #main img{
+        width: 709px;
+        height: 372px;
+    }
+    #main ul .nofat{
+        width: 691px;
+        height: 66px;
+    }
+    footer {
+        width: 1000px;
+        height: 451px;
+    }
+    .footerWrapperN1{
+        margin: 0 0 0 11px;
+    }
+    .footerWrapperN2{
+        margin: 0 0 0 11px;
+    }
+    .footerlinksDIV{
+        margin: 63px 98px 0 65px;
+    }
+    .p1{
+        margin: 15px 0 0 0;
+    }
+    .footerlogo{
+        margin-right: 35px;
+    }
 }
